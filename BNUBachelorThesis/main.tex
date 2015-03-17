@@ -1,0 +1,61 @@
+% !Mode:: "TeX:UTF-8"
+\documentclass[bachelor]{bnuthesis}
+% \documentclass[%
+%   bachelor|master|doctor, % mandatory option
+%   xetex|pdftex|dvips|dvipdfm, % optional
+%   twoside,  % 是否双面打印，默认为单面
+%   secret,  % 是否涉密
+%   arialtoc,arialtitle]{bnuthesis}
+
+% 所有其它可能用到的包都统一放在这里，可以根据实际需要添加或者删除。
+\usepackage{bnutils}
+
+%\usepackage[top=2.5cm, bottom=2cm, left=2.5cm, right=2cm]{geometry}
+% 你可以在这里修改配置文件中的定义，导言区可以使用中文。
+% \def\myname{薛瑞尼}
+
+\begin{document}
+% 定义所有的eps文件在figures子目录下
+\graphicspath{{figures/}}
+
+%%% 封面部分
+\frontmatter
+\input{data/cover}
+\makecover
+
+% 目录
+\tableofcontents
+
+% 符号对照表
+% \input{data/denotation}
+% 插图索引
+%\listoffigures
+% 表格索引
+%\listoftables
+
+%%% 正文部分
+\mainmatter
+\include{data/chap01}
+\include{data/chap02}
+
+
+%%% 其它部分
+%\backmatter
+
+%
+% % 参考文献
+ \bibliographystyle{bnubib}
+ \bibliography{ref/refs}
+
+% 附录
+\begin{appendix}
+\input{data/appendix01}
+\end{appendix}
+%
+% % 学术成果
+\include{data/paper}
+
+% 致谢
+\include{data/ack}
+
+\end{document}
