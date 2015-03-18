@@ -1,3 +1,9 @@
+# BNUBachelorThesis
+BNUBachelorThesis是北京师范大学学士学位论文的LaTeX模板，基于BNUThesis 1.52.1制作
+
+
+# BNUThesis 1.52.1
+
 ==========
 What's it?
 ==========
