@@ -6,9 +6,11 @@ Latex Template of BNU Bachelor Thesis
 
 ### Version 0.1 alpha
 #### Update
+1、完成大部分更改使之符合要求
 
 #### Pending To Solve
 1、目录格式
+
 2、页面上下边距
 
 
