@@ -1,6 +1,17 @@
 # BNUBachelorThesis
 Latex Template of BNU Bachelor Thesis
 
+
+## Update Infomation
+
+### Version 0.1 alpha
+#### Update
+
+#### Pending To Solve
+1、目录格式
+2、页面上下边距
+
+
 ## References
 1、基于《北师大学位论文Latex模板》(BNUThesis_1.52.1)：http://gerry.lamost.org/blog/?p=811 制作
 
