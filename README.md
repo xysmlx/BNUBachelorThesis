@@ -1,5 +1,5 @@
 # BNUBachelorThesis
-Latex Template of BNU Bachelor Thesis
+Latex Template of BNU Bachelor Thesis based on BNUThesis_1.52.1
 
 
 ## Update Infomation
