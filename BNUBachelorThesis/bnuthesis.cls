@@ -75,6 +75,8 @@
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{txfonts}
 \RequirePackage{graphicx}
+\RequirePackage{titletoc}
+%\RequirePackage{tocloft}
 \RequirePackage[config]{subfig}
 \RequirePackage{indentfirst}
 \RequirePackage[neverdecrease]{paralist}
@@ -92,6 +94,7 @@
   \newcommand{\fontfs}{Adobe Fangsong Std}
   \newcommand{\fontli}{Adobe Kaiti Std}
   \newcommand{\fontyou}{Adobe Kaiti Std}
+  \newcommand{\fonttnr}{Times New Roman}
 
   \setCJKmainfont[BoldFont={\fonthei}, ItalicFont={\fontkai}]{\fontsong}
   \setCJKsansfont{\fonthei}
@@ -119,7 +122,7 @@
 % \newcommand*{\lishu}{\CJKfamily{zhli}}    % 隶书
 % \newcommand*{\youyuan}{\CJKfamily{zhyou}} % 幼圆
 
-  \setmainfont{Times New Roman}
+  \setmainfont{Times New Roman} %times new roman
   \setsansfont{Arial}
   \setmonofont{Courier New}
 \else
@@ -198,6 +201,8 @@
 \def\lishu{\li}
 \newcommand{\you}{\CJKfamily{you}}      % 幼圆
 \def\youyuan{\you}
+%\newcommand{\tnr}{\setmainfont{Times New Roman}}      % Times New Roman
+%\def\timesnewroman{\tnr}
 \newlength\bnu@linespace
 \newcommand{\bnu@choosefont}[2]{%
    \setlength{\bnu@linespace}{#2*\real{#1}}%
@@ -418,7 +423,7 @@
   \fi
   \chaptermark{#1}%
   \@makechapterhead{#2}}
-\def\@makechapterhead#1{%
+\def\@makechapterhead#1{%一级标题：三号黑体
   \vspace*{20bp}%
   {\parindent \z@ \centering
     \hei\csname bnu@title@font\endcsname\sanhao[1]
@@ -467,27 +472,29 @@
   \else
     \@mkboth{#3}{#3}
   \fi}
-\renewcommand\section{\@startsection {section}{1}{\z@}%
+\renewcommand\section{\@startsection {section}{1}{\z@}%二级标题：小三号黑体，三级标题： 四号黑体；
                      { -24bp\@plus -1ex \@minus -.2ex}%
                      {6bp \@plus .2ex}%
-                     {\hei\csname bnu@title@font\endcsname\sihao[1.429]}}
+                     {\hei\csname bnu@title@font\endcsname\xiaosan[1.429]}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
                         {-16bp\@plus -1ex \@minus -.2ex}%
                         {6bp \@plus .2ex}%
-                        {\hei\csname bnu@title@font\endcsname\banxiaosi[1.538]}}
+                        {\hei\csname bnu@title@font\endcsname\sihao[1.538]}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
                            {-16bp\@plus -1ex \@minus -.2ex}%
                            {6bp \@plus .2ex}%
                            {\hei\csname bnu@title@font\endcsname\xiaosi[1.667]}}
 \setcounter{secnumdepth}{3}
-\ifbnu@doctor
-  \setcounter{tocdepth}{3} % 目录索引深度
-\else
-  \setcounter{tocdepth}{3}
-\fi
+\setcounter{tocdepth}{3}
+%\ifbnu@doctor
+%  \setcounter{tocdepth}{3} % 目录索引深度
+%\else
+%  \setcounter{tocdepth}{3}
+%\fi
 \renewcommand\tableofcontents{%
   \bnu@chapter*[]{\contentsname}
-  \sanhao[1.5]\@starttoc{toc}\normalsize}
+  \sanhao[1.5]\@starttoc{toc}\normalsize
+}
 \ifbnu@arialtoc
   \def\bnu@toc@font{\sffamily}
 \fi
@@ -508,10 +515,37 @@
     \nobreak{\normalsize \normalcolor #5}%
     \par}%
   \fi}
+%目录格式
 \renewcommand*\l@chapter{\@dottedtocline{0}{0em}{0em}}
 \renewcommand*\l@section{\@dottedtocline{1}{1em}{2.3em}}
 \renewcommand*\l@subsection{\@dottedtocline{2}{2em}{3.3em}}
 \renewcommand*\l@subsubsection{\@dottedtocline{3}{3em}{4.3em}}
+\titlecontents{chapter}[0em]
+{\hei}
+{\sanhao[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+[]
+\titlecontents{section}[1em]
+{\hei}
+{\xiaosan[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+[]
+\titlecontents{subsection}[2em]
+{\hei}
+{\sihao[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+[]
+\titlecontents{subsubsection}[3em]
+{\hei}
+{\xiaosi[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+[]
+%\titlecontents{subsubsection}[3em]
+%{\vspace{.2\baselineskip}\hei}
+%{\xiaosi[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+%{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+%[\vspace{.1\baselineskip}]
+
 \def\bnu@define@term#1{
   \expandafter\gdef\csname #1\endcsname##1{%
     \expandafter\gdef\csname bnu@#1\endcsname{##1}}
@@ -673,30 +707,30 @@
 \newcommand{\bnu@makeabstract}{%
   \cleardoublepage % always openright for Abstract
 
-  \bnu@chapter*[\cabstractname]{} % no tocline
+  \bnu@chapter*[\cabstractname]{} % no tocline 摘要内容：四号宋体，行距20磅；
   \pagestyle{bnu@plain}
   \pagenumbering{Roman}
   \begin{center}
-  	\sanhao[1.5] \song \bf \bnu@ctitle \par
-  	\vskip16bp  	
-  	\xiaosan[1.5] \hei \bf \cabstractname
+  	\sanhao[2.0] \hei \bf \bnu@ctitle \par
+  	\vskip20bp  	
+  	\xiaosan[2.0] \hei \cabstractname %
   \end{center}
-  \vskip16bp
-  \xiaosi[1.6] \song \par \bnu@cabstract
-  \vskip12bp
-  \setbox0=\hbox{{\sihao \hei\bnu@ckeywords@title}}
+  \vskip20bp
+  \xiaosi[2.0] \song \par \bnu@cabstract
+  \vskip20bp
+  \setbox0=\hbox{{\sihao \hei\bnu@ckeywords@title}} %	关键词：四号黑体
   \noindent\hangindent\wd0\hangafter1
-    \box0 \xiaosi \song \bnu@ckeywords
+    \box0 \sihao \song \bnu@ckeywords %关键词内容：四号宋体；
 
-  \bnu@chapter*[\eabstractname]{} % no tocline
+  \bnu@chapter*[\eabstractname]{} % no tocline %英文摘要：小三号，摘要内容：四号，Times New Roman字体，单倍行距；
   \begin{center}
-  	\sanhao[1.6] \song \bf \bnu@etitle \par
-  	\vskip16bp  	
-  	\xiaosan[1.6] \hei \bf \eabstractname
+  	\sanhao[2.0] \bf \bnu@etitle \par
+  	\vskip20bp  	
+  	\xiaosan[2.0] \bf \eabstractname
   \end{center}
-  \vskip16bp  	
-  \xiaosi[1.6] \song \par \bnu@eabstract
-  \vskip12bp
+  \vskip20bp  	
+  \sihao[2.0] \par \bnu@eabstract
+  \vskip20bp
   \setbox0=\hbox{\textbf \bnu@ekeywords@title}
   \noindent\hangindent\wd0\hangafter1
     \box0\bnu@ekeywords}
