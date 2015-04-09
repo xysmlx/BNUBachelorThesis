@@ -105,7 +105,7 @@
   \setCJKfamilyfont{kai}{\fontkai}
   \setCJKfamilyfont{li}{\fontli}
   \setCJKfamilyfont{you}{\fontyou}
-
+\setlength{\baselineskip}{20pt}
   % \setCJKmainfont[BoldFont={SimHei},ItalicFont={KaiTi}]{SimSun}
 % \setCJKsansfont{SimHei}
 % \setCJKmonofont{FangSong}
@@ -185,7 +185,7 @@
   \clpage
   \@mainmattertrue
   \pagenumbering{arabic}
-  \pagestyle{bnu@headings}}
+  \pagestyle{bnu@plain}}
 \renewcommand\backmatter{%
   \clpage
   \@mainmattertrue}
@@ -245,7 +245,7 @@
 \setlength\marginparwidth{0cm}
 \setlength\marginparsep{0cm}
 \addtolength{\textwidth}{-4.5cm}
-\addtolength{\textheight}{-7.5cm}
+\addtolength{\textheight}{-6.5cm}
 
 %每一页面的上边距和左边距侧（订口）分别留边25 mm，下边距和右边距（切口）应分别留边20 mm。
 \setlength{\hoffset}{-1in} %清空默认页边距	
@@ -256,12 +256,12 @@
   \setlength{\oddsidemargin}{2.5cm} %奇数页左边距
   \setlength{\evensidemargin}{\oddsidemargin} %偶数页左边距
 \fi
-\setlength{\headheight}{1.2cm}
+%\setlength{\headheight}{1.2cm}
 \setlength{\topskip}{0pt}
 \setlength{\skip\footins}{15pt}
 \setlength{\topmargin}{0pt}
 \setlength{\footskip}{1.6cm}
-\setlength{\headsep}{0cm}
+\setlength{\headsep}{-1cm}
 
 \let\bnu@cleardoublepage\cleardoublepage
 \newcommand{\bnu@clearemptydoublepage}{%
@@ -516,30 +516,30 @@
     \par}%
   \fi}
 %目录格式
-\renewcommand*\l@chapter{\@dottedtocline{0}{0em}{0em}}
-\renewcommand*\l@section{\@dottedtocline{1}{1em}{2.3em}}
-\renewcommand*\l@subsection{\@dottedtocline{2}{2em}{3.3em}}
-\renewcommand*\l@subsubsection{\@dottedtocline{3}{3em}{4.3em}}
+%\renewcommand*\l@chapter{\@dottedtocline{0}{0em}{0em}}
+%\renewcommand*\l@section{\@dottedtocline{1}{1em}{2.3em}}
+%\renewcommand*\l@subsection{\@dottedtocline{2}{2em}{3.3em}}
+%\renewcommand*\l@subsubsection{\@dottedtocline{3}{3em}{4.3em}}
 \titlecontents{chapter}[0em]
-{\hei}
-{\sanhao[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\vspace{.2\baselineskip}\hei}
+{\sanhao[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[]
+[\vspace{.1\baselineskip}]
 \titlecontents{section}[1em]
-{\hei}
-{\xiaosan[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\vspace{.2\baselineskip}\hei}
+{\xiaosan[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[]
+[\vspace{.1\baselineskip}]
 \titlecontents{subsection}[2em]
-{\hei}
-{\sihao[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\vspace{.2\baselineskip}\hei}
+{\sihao[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[]
+[\vspace{.1\baselineskip}]
 \titlecontents{subsubsection}[3em]
-{\hei}
-{\xiaosi[2.0]{\thecontentslabel}~\hspace{.5em}} {}
+{\vspace{.2\baselineskip}\hei}
+{\xiaosi[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[]
+[\vspace{.1\baselineskip}]
 %\titlecontents{subsubsection}[3em]
 %{\vspace{.2\baselineskip}\hei}
 %{\xiaosi[2.0]{\thecontentslabel}~\hspace{.5em}} {}
@@ -812,7 +812,7 @@
 \let\bnu@appendix\appendix
 \renewenvironment{appendix}{%
   \bnu@appendix
-  \renewcommand \thechapter { \@arabic\c@chapter} %% 附录用阿拉伯数字编码
+  \renewcommand \thechapter { \@Roman\c@chapter} %% 附录用罗马数字编码
   \gdef\@chapapp{\appendixname~\thechapter}
   \renewcommand\theequation{\ifnum \c@chapter>\z@ \appendixequation\thechapter-\fi\@arabic\c@equation}
   \renewcommand\thetable{\ifnum \c@chapter>\z@ \appendixequation\thechapter.\fi\@arabic\c@table}

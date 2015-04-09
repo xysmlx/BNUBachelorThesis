@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  9 APR 2015 22:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  9 APR 2015 23:37
 entering extended mode
 **main.tex
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.tex
@@ -1319,4 +1319,539 @@ LaTeX Warning: File c7069.cmap not found on input line 24.
 LaTeX Warning: File c7081.cmap not found on input line 24.
 
 
-LaTeX
+LaTeX Warning: File c706e.cmap not found on input line 24.
+
+
+LaTeX Warning: File c7071.cmap not found on input line 24.
+
+
+LaTeX Warning: File c7099.cmap not found on input line 24.
+
+
+LaTeX Warning: File c7070.cmap not found on input line 24.
+
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 24.
+
+LaTeX Warning: File c707d.cmap not found on input line 24.
+
+
+LaTeX Warning: File c7086.cmap not found on input line 24.
+
+
+LaTeX Warning: File c7074.cmap not found on input line 24.
+
+
+LaTeX Warning: File c7082.cmap not found on input line 24.
+
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 24
+.
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \makecover
+                [1
+
+
+
+
+]
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 13.34981pt on input line 24.
+pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \tableofcontents
+                      [2
+
+
+]
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.toc
+
+LaTeX Warning: File c7097.cmap not found on input line 4.
+
+[3
+
+
+]
+
+LaTeX Warning: File c708c.cmap not found on input line 22.
+
+)
+\tf@toc=\write4
+ [4] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.tex
+
+LaTeX Warning: File c709f.cmap not found on input line 13.
+
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 13.
+(E:\CTeX\CTeX\MiKTeX\tex\latex\txfonts\omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8.43146> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <9.03374> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 17.
+
+
+LaTeX Warning: File c709e.cmap not found on input line 17.
+
+
+LaTeX Warning: File c706d.cmap not found on input line 17.
+
+
+LaTeX Warning: File c706f.cmap not found on input line 17.
+
+
+LaTeX Warning: File c7055.cmap not found on input line 17.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 14.30338pt on input line 20.
+
+LaTeX Warning: File c705a.cmap not found on input line 34.
+
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12.045> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for C70+kai on input line 36.
+(E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70kai.fd
+File: c70kai.fd 2009/09/23 4.8.2
+)
+
+LaTeX Warning: File c7085.cmap not found on input line 37.
+
+LaTeX Font Info:    Try loading font information for C70+fs on input line 43.
+(E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70fs.fd
+File: c70fs.fd 2009/09/23 4.8.2
+)
+
+LaTeX Warning: File c709b.cmap not found on input line 44.
+
+[1
+
+
+
+]
+LaTeX Font Info:    Try loading font information for C70+you on input line 48.
+ (E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70you.fd
+File: c70you.fd 2009/09/23 4.8.2
+)
+
+LaTeX Warning: File c7084.cmap not found on input line 49.
+
+LaTeX Font Info:    Try loading font information for C70+li on input line 59.
+(E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70li.fd
+File: c70li.fd 2009/09/23 4.8.2
+)
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 75.
+
+
+(E:\CTeX\CTeX\MiKTeX\tex\latex\txfonts\ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 87
+.
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <7.72884> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 90.
+
+Underfull \hbox (badness 10000) in alignment at lines 87--97
+[][] 
+ []
+
+
+LaTeX Warning: File c708e.cmap not found on input line 103.
+
+[2]
+
+LaTeX Warning: File c7087.cmap not found on input line 136.
+
+
+LaTeX Warning: File c708a.cmap not found on input line 138.
+
+
+LaTeX Warning: File c7092.cmap not found on input line 139.
+
+[3]
+Overfull \hbox (2.28853pt too wide) in paragraph at lines 151--171
+$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: File c7094.cmap not found on input line 182.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]|\OT1/txr/m/n/11.04124 Waxman
+ []
+
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 330--335
+
+ []
+
+Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
+nput line 347.
+Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
+ut line 351.
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 359.
+[7]
+Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
+input line 369.
+Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
+ line 377.
+Package hyperref Info: bookmark level for unknown axiom defaults to 0 on input 
+line 398.
+ [8]
+Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
+line 414.
+Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
+t line 427.
+Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
+line 443.
+Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
+put line 454.
+ [9]
+Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
+t line 471.
+Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
+ut line 483.
+Package hyperref Info: bookmark level for unknown conjecture defaults to 0 on i
+nput line 486.
+Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
+t line 492.
+
+
+Package natbib Warning: Citation `tex' on page 10 undefined on input line 507.
+
+
+Package natbib Warning: Citation `companion' on page 10 undefined on input line
+ 507.
+
+
+Package natbib Warning: Citation `ColdSources' on page 10 undefined on input li
+ne 507.
+
+
+Package natbib Warning: Citation `Krasnogor2004e' on page 10 undefined on input
+ line 508.
+
+
+Package natbib Warning: Citation `clzs' on page 10 undefined on input line 508.
+
+
+
+Package natbib Warning: Citation `zjsw' on page 10 undefined on input line 508.
+
+
+
+Package natbib Warning: Citation `ELIDRISSI94' on page 10 undefined on input li
+ne 509.
+
+
+Package natbib Warning: Citation `MELLINGER96' on page 10 undefined on input li
+ne 509.
+
+
+Package natbib Warning: Citation `SHELL02' on page 10 undefined on input line 5
+09.
+
+
+Package natbib Warning: Citation `zhubajie' on page 10 undefined on input line 
+509.
+
+
+Package natbib Warning: Citation `metamori2004' on page 10 undefined on input l
+ine 509.
+
+
+Package natbib Warning: Citation `shaheshang' on page 10 undefined on input lin
+e 510.
+
+
+Package natbib Warning: Citation `FistSystem01' on page 10 undefined on input l
+ine 510.
+
+
+Package natbib Warning: Citation `IEEE-1363' on page 10 undefined on input line
+ 510.
+
+
+Package natbib Warning: Citation `DPMG' on page 10 undefined on input line 510.
+
+
+
+Package natbib Warning: Citation `kocher99' on page 10 undefined on input line 
+510.
+
+
+Package natbib Warning: Citation `NPB2' on page 10 undefined on input line 510.
+
+
+
+Package natbib Warning: Citation `cnarticle' on page 10 undefined on input line
+ 511.
+
+
+Package natbib Warning: Citation `cnproceed' on page 10 undefined on input line
+ 512.
+
+
+Package natbib Warning: Citation `shaheshang' on page 10 undefined on input lin
+e 515.
+
+[10]
+LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 547
+.
+) [11] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.tex
+<figures/hello.pdf, id=697, 182.6825pt x 51.19125pt>
+File: figures/hello.pdf Graphic file (type pdf)
+ <use figures/hello.pdf>
+Package pdftex.def Info: figures/hello.pdf used on input line 42.
+(pdftex.def)             Requested size: 182.68204pt x 51.19112pt.
+
+[12
+
+
+
+ <D:/GitHub/BNUBachelorThesis/BNUBachelorThesis/figures/hello.pdf>])
+[13]
+No file main.bbl.
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/appendix01.tex
+\c@currmpdefctr=\count186
+\c@endmpdefctr=\count187
+\c@mpdef=\count188
+Package hyperref Info: bookmark level for unknown mpdef defaults to 0 on input 
+line 38.
+\c@currmpdefopctr=\count189
+\c@endmpdefopctr=\count190
+Package hyperref Info: bookmark level for unknown mpdefop defaults to 0 on inpu
+t line 50.
+ [14
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.A.1.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.69 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.A.1.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.69 \begin{equation}
+                     ]
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\OT1/txr/m/n/11.04124 Waxman
+ []
+
+[15] [16]
+
+LaTeX Warning: File c709c.cmap not found on input line 152.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]|\OT1/txr/m/n/11.04124 Waxman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\OT1/txr/m/n/11.04124 Waxman
+ []
+
+[17
+
+] [18]) [19
+
+] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/paper.tex)
+[20
+
+
+
+] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/ack.tex) [21
+
+
+
+
+]
+\tf@thm=\write5
+
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.aux
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.aux)
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.aux)
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/paper.aux)
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/ack.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5B2C9520D687433484456086B4DA3248;4542
+(rerunfilecheck)             After:  030F4A88AC80B6A1801F22E41AC54977;4020.
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17900 strings out of 495354
+ 250432 string characters out of 3183579
+ 313762 words of memory out of 3000000
+ 19507 multiletter control sequences out of 15000+200000
+ 289046 words of font info for 858 fonts, out of 3000000 for 9000
+ 15 hyphenation exceptions out of 8191
+ 51i,22n,51p,576b,2523s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf>{E:/CTeX/CTeX/MiKTeX/fon
+ts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
+hei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/
+simhei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/C
+TeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese
+/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/
+CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chines
+e/simsun.ttf><C:/Windows/Fonts/simhei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chi
+nese/simsun.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Win
+dows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C
+:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.t
+tf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/si
+mli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fon
+ts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Window
+s/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/W
+indows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf>
+<C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli.ttf><C:/Windows/Fonts/simli
+.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
+s/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
+ows/Fonts/simhei.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf>
+<C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/sim
+you.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/F
+onts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/W
+indows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.t
+tf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/
+simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Window
+s/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C
+:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyo
+u.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fon
+ts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Win
+dows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf
+><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/
+simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Win
+dows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.
+ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fon
+ts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/
+Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfa
+ng.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/
+Fonts/simfang.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Wind
+ows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.t
+tf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Font
+s/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/W
+indows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfan
+g.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/F
+onts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C
+:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/sim
+kai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/F
+onts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/W
+indows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.t
+tf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/
+simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Window
+s/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C
+:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simka
+i.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fon
+ts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Win
+dows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf
+><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/si
+mkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/
+Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/
+Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.
+ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts
+/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windo
+ws/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><
+C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simk
+ai.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/
+fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX
+/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/si
+msun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts
+/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
+ws/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
+C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simh
+ei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fo
+nts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wi
+ndows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
+f><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
+imhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows
+/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:
+/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><E:/CTeX/CTeX/CTeX/fonts
+/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.t
+tf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/font
+s/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.
+ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun
+.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fo
+nts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsu
+n.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/si
+mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
+Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
+ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><E:/CTeX/CTeX/CTe
+X/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/s
+imsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CT
+eX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/
+simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/C
+TeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese
+/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/
+CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chines
+e/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX
+/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chine
+se/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTe
+X/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chin
+ese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CT
+eX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chi
+nese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/C
+TeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/ch
+inese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/
+CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/c
+hinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX
+/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/
+chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTe
+X/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype
+/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CT
+eX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetyp
+e/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/C
+TeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truety
+pe/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/
+CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truet
+ype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:
+/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/true
+type/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E
+:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf
+><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
+mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
+Fonts/simhei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/
+CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/c
+hinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX
+/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/
+chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTe
+X/CTeX/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><E:/CTeX/CTeX/MiKTeX/fonts/t
+ype1/public/txfonts/rtxr.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/rt
+xsc.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txex.pfb><E:/CTeX/CTeX/
+MiKTeX/fonts/type1/public/txfonts/txsy.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/pub
+lic/txfonts/txsya.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb
+><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><E:/CTeX/CTeX/MiKTeX/
+fonts/type1/urw/helvetic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/
+utmb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX
+/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on main.pdf (27 pages, 1504392 bytes).
+PDF statistics:
+ 1692 PDF objects out of 1728 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 595 words of extra memory for PDF output out of 10000 (max. 10000000)
+
