@@ -20,13 +20,9 @@
 \def\bnuthesis{\textsc{BNUThesis}}
 \def\version{1.51}
 \newif\ifbnu@bachelor\bnu@bachelorfalse
-\newif\ifbnu@master\bnu@masterfalse
-\newif\ifbnu@doctor\bnu@doctorfalse
 \newif\ifbnu@secret\bnu@secretfalse
 \newif\ifbnu@twoside\bnu@twosidefalse
 \DeclareOption{bachelor}{\bnu@bachelortrue}
-\DeclareOption{master}{\bnu@mastertrue}
-\DeclareOption{doctor}{\bnu@doctortrue}
 \DeclareOption{secret}{\bnu@secrettrue}
 \DeclareOption{twoside}{\bnu@twosidetrue}
 \newif\ifbnu@dvips
@@ -48,12 +44,6 @@
 \ProcessOptions\relax
 \LoadClass[12pt,a4paper,openany]{book}
 \ifbnu@bachelor\relax\else
-  \ifbnu@master\relax\else
-    \ifbnu@doctor\relax\else
-      \ClassError{bnuthesis}%
-                 {You have to specify one of thesis options: bachelor, master or doctor.}{}
-    \fi
-  \fi
 \fi
 \RequirePackage{ifpdf,ifxetex}
 \ifbnu@xetex\RequireXeTeX\fi
@@ -502,11 +492,6 @@
                            {\hei \bf \csname bnu@title@font\endcsname\xiaosi[1.667]}}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
-%\ifbnu@doctor
-%  \setcounter{tocdepth}{3} % 目录索引深度
-%\else
-%  \setcounter{tocdepth}{3}
-%\fi
 \renewcommand\tableofcontents{%
   \bnu@chapter*[]{\contentsname}
   \sanhao[1.5]\@starttoc{toc}\normalsize
@@ -635,15 +620,7 @@
       \renewcommand{\baselinestretch}{1.5}
       \begin{center}
       \vskip-0.4cm
-      \ifbnu@bachelor
       	{\xiaochu[1.2]\song\ziju{0.24cm}\bf \bnu@bachelor@subtitle}
-      \fi
-      %\ifbnu@master
-%      	{\chuhao[1.2]\hei\ziju{8bp}\bf \bnu@master@subtitle}
-%      \fi
-%      \ifbnu@doctor
-%      	{\chuhao[1.2]\hei\ziju{8bp}\bf \bnu@doctor@subtitle}
-%      \fi
       \par\vskip2.4cm
       %\sanhao[1] \song \bf \bnu@thesistitle
       \end{center}
@@ -804,7 +781,7 @@
 \def\@biblabel#1{\bibleftdelim #1\bibrightdelim}
 \renewenvironment{thebibliography}[1]{%
    \bnu@chapter*{\bibname}%
-   \xiaosi[1.5]
+   \wuhao[1.6]
    \list{\@biblabel{\@arabic\c@enumiv .}}%
 		{\renewcommand{\makelabel}[1]{##1\hfill}
          \settowidth\labelwidth{0cm}
