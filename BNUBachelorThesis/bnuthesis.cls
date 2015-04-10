@@ -240,14 +240,31 @@
 \AtBeginDvi{\special{!%
       \@percentchar\@percentchar BeginPaperSize: a4
       ^^Ja4^^J\@percentchar\@percentchar EndPaperSize}}
-\setlength{\textwidth}{\paperwidth}
-\setlength{\textheight}{\paperheight}
-\setlength\marginparwidth{0cm}
-\setlength\marginparsep{0cm}
-\addtolength{\textwidth}{-4.5cm}
-\addtolength{\textheight}{-6.5cm}
+%\setlength{\textwidth}{\paperwidth}
+%\setlength{\textheight}{\paperheight}
+%\setlength\marginparwidth{0cm}
+%\setlength\marginparsep{0cm}
+%\addtolength{\textwidth}{-4.5cm}
+%\addtolength{\textheight}{-6.5cm}
 
 %每一页面的上边距和左边距侧（订口）分别留边25 mm，下边距和右边距（切口）应分别留边20 mm。
+%\setlength{\hoffset}{-1in} %清空默认页边距	
+%\ifbnu@twoside
+%  \setlength{\oddsidemargin}{2.5cm} %奇数页左边距
+%  \setlength{\evensidemargin}{2cm} %偶数页左边距
+%\else%done，
+%  \setlength{\oddsidemargin}{2.5cm} %奇数页左边距
+%  \setlength{\evensidemargin}{\oddsidemargin} %偶数页左边距
+%\fi
+%\setlength{\headheight}{1.2cm}
+%\setlength{\topskip}{0pt}
+%\setlength{\skip\footins}{15pt}
+%\setlength{\topmargin}{0pt}
+%\setlength{\footskip}{1.6cm}
+%\setlength{\headsep}{-1cm}
+
+\RequirePackage{geometry}
+\geometry{left=2.5cm,right=2cm,top=2.5cm,bottom=3.25cm,foot=1.5cm}
 \setlength{\hoffset}{-1in} %清空默认页边距	
 \ifbnu@twoside
   \setlength{\oddsidemargin}{2.5cm} %奇数页左边距
@@ -256,12 +273,6 @@
   \setlength{\oddsidemargin}{2.5cm} %奇数页左边距
   \setlength{\evensidemargin}{\oddsidemargin} %偶数页左边距
 \fi
-%\setlength{\headheight}{1.2cm}
-\setlength{\topskip}{0pt}
-\setlength{\skip\footins}{15pt}
-\setlength{\topmargin}{0pt}
-\setlength{\footskip}{1.6cm}
-\setlength{\headsep}{-1cm}
 
 \let\bnu@cleardoublepage\cleardoublepage
 \newcommand{\bnu@clearemptydoublepage}{%
@@ -423,28 +434,31 @@
   \fi
   \chaptermark{#1}%
   \@makechapterhead{#2}}
-\def\@makechapterhead#1{%一级标题：三号黑体
-  \vspace*{20bp}%
+%正文标题：均加粗，段前后均0.5行
+\def\@makechapterhead#1{%一级标题：三号黑体，加粗
+  %\vspace*{0.5\baselineskip}%
   {\parindent \z@ \centering
-    \hei\csname bnu@title@font\endcsname\sanhao[1]
+    \hei \bf \csname bnu@title@font\endcsname\sanhao[2.0]
     \ifnum \c@secnumdepth >\m@ne
       \@chapapp\hskip1em
     \fi
     #1\par\nobreak
-    \vskip 24bp}}
+    %\vskip0.5\baselineskip}
+    }}
 \def\@schapter#1{%
   \@makeschapterhead{#1}
   \@afterheading}
 \def\@makeschapterhead#1{%
-  \vspace*{20bp}%
+  %\vspace*{0.5\baselineskip}%
   {\parindent \z@ \centering
-   \hei\csname bnu@title@font\endcsname\sanhao[1]
+   \hei \bf \csname bnu@title@font\endcsname\sanhao[2.0]
      \def\@tempa{#1}
      \def\@tempb{\eabstractname}
      \ifx\@tempa\@tempb\bfseries\fi
    \interlinepenalty\@M
    #1\par\nobreak
-   \vskip 24bp}}
+   %\vskip0.5\baselineskip}
+   }}
 \newcounter{bnu@bookmark}
 \def\bnu@chapter*{%
   \@ifnextchar [ % ]
@@ -472,18 +486,20 @@
   \else
     \@mkboth{#3}{#3}
   \fi}
+\RequirePackage{titlesec}
+\titlespacing{\chapter}{0pt}{0.5\baselineskip}{0.5\baselineskip}
 \renewcommand\section{\@startsection {section}{1}{\z@}%二级标题：小三号黑体，三级标题： 四号黑体；
                      { -24bp\@plus -1ex \@minus -.2ex}%
                      {6bp \@plus .2ex}%
-                     {\hei\csname bnu@title@font\endcsname\xiaosan[1.429]}}
+                     {\hei \bf \csname bnu@title@font\endcsname\xiaosan[1.429]}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
                         {-16bp\@plus -1ex \@minus -.2ex}%
                         {6bp \@plus .2ex}%
-                        {\hei\csname bnu@title@font\endcsname\sihao[1.538]}}
+                        {\hei \bf \csname bnu@title@font\endcsname\sihao[1.538]}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
                            {-16bp\@plus -1ex \@minus -.2ex}%
                            {6bp \@plus .2ex}%
-                           {\hei\csname bnu@title@font\endcsname\xiaosi[1.667]}}
+                           {\hei \bf \csname bnu@title@font\endcsname\xiaosi[1.667]}}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 %\ifbnu@doctor
@@ -613,21 +629,21 @@
     \parbox[b][2.4cm][t]{\textwidth}{%
       \ifbnu@secret\hfill{\sihao\bnu@secret@title}\else\rule{1cm}{0cm}\fi}
     \vskip-1.2cm
-    \includegraphics[width=0.5\textwidth]{BNU_name.jpg}
+    \includegraphics[width=7.96cm]{BNU_name.jpg}
 
       \parbox[t][7cm][t]{\paperwidth-6.5cm}{
       \renewcommand{\baselinestretch}{1.5}
       \begin{center}
-      \vskip0.2cm
+      \vskip-0.4cm
       \ifbnu@bachelor
       	{\xiaochu[1.2]\song\ziju{0.24cm}\bf \bnu@bachelor@subtitle}
       \fi
-      \ifbnu@master
-      	{\chuhao[1.2]\hei\ziju{8bp}\bf \bnu@master@subtitle}
-      \fi
-      \ifbnu@doctor
-      	{\chuhao[1.2]\hei\ziju{8bp}\bf \bnu@doctor@subtitle}
-      \fi
+      %\ifbnu@master
+%      	{\chuhao[1.2]\hei\ziju{8bp}\bf \bnu@master@subtitle}
+%      \fi
+%      \ifbnu@doctor
+%      	{\chuhao[1.2]\hei\ziju{8bp}\bf \bnu@doctor@subtitle}
+%      \fi
       \par\vskip2.4cm
       %\sanhao[1] \song \bf \bnu@thesistitle
       \end{center}
@@ -635,7 +651,8 @@
         \sanhao[1] \hei \bf \bnu@thesistitlepre
       \end{flushleft}
       \begin{center}
-        \sanhao[1] \song \bf \underline{\bnu@ctitle}
+        \sanhao[1] \song \bf \underline{\bnu@ctitle}%\\
+        %\sanhao[1] \song \bf \ \\
       \end{center}
       }
 
@@ -668,7 +685,7 @@
 %             \end{tabular}
 %         \end{center}}}
 
-     \ \\ \ \\ \ \\ \ \\ \ \\
+     \vskip2.4cm
      \begin{center}
        {\xiaosi \song\ziju{4bp} \bf \bnu@org}
      \end{center}

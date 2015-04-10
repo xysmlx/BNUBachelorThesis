@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  9 APR 2015 23:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  10 APR 2015 20:30
 entering extended mode
 **main.tex
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.tex
@@ -805,80 +805,110 @@ Package hyperref Warning: Option `pdfpagelabels' has already been used,
 (hyperref)                setting the option has no effect on input line 170.
 
 \bnu@linespace=\skip73
+(E:\CTeX\CTeX\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count136
+\Gm@cntv=\count137
+\c@Gm@tempcnt=\count138
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks38
+
+(E:\CTeX\CTeX\MiKTeX\tex\latex\geometry\geometry.cfg))
 \CJK@twochars=\skip74
-\c@pcabs@footnote=\count136
-\c@bnu@bookmark=\count137
-\bnu@title@width=\skip75
-) (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnuthesis.cfg
+\c@pcabs@footnote=\count139
+\c@bnu@bookmark=\count140
+
+(E:\CTeX\CTeX\MiKTeX\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box33
+\beforetitleunit=\skip75
+\aftertitleunit=\skip76
+\ttl@plus=\dimen155
+\ttl@minus=\dimen156
+\ttl@toksa=\toks39
+\titlewidth=\dimen157
+\titlewidthlast=\dimen158
+\titlewidthfirst=\dimen159
+)
+\bnu@title@width=\skip77
+)
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnuthesis.cfg
 File: bnuthesis.cfg 2014/03/12 1.52 Beijing Normal University Thesis Template
-\c@currproofctr=\count138
-\c@endproofctr=\count139
-\c@proof=\count140
-\c@currassumptionctr=\count141
-\c@endassumptionctr=\count142
-\c@assumption=\count143
-\c@currdefinitionctr=\count144
-\c@enddefinitionctr=\count145
-\c@definition=\count146
-\c@currpropositionctr=\count147
-\c@endpropositionctr=\count148
-\c@proposition=\count149
-\c@currlemmactr=\count150
-\c@endlemmactr=\count151
-\c@lemma=\count152
-\c@currtheoremctr=\count153
-\c@endtheoremctr=\count154
-\c@theorem=\count155
-\c@curraxiomctr=\count156
-\c@endaxiomctr=\count157
-\c@axiom=\count158
-\c@currcorollaryctr=\count159
-\c@endcorollaryctr=\count160
-\c@corollary=\count161
-\c@currexercisectr=\count162
-\c@endexercisectr=\count163
-\c@exercise=\count164
-\c@currexamplectr=\count165
-\c@endexamplectr=\count166
-\c@example=\count167
-\c@currremarkctr=\count168
-\c@endremarkctr=\count169
-\c@remark=\count170
-\c@currproblemctr=\count171
-\c@endproblemctr=\count172
-\c@problem=\count173
-\c@currconjecturectr=\count174
-\c@endconjecturectr=\count175
-\c@conjecture=\count176
+\c@currproofctr=\count141
+\c@endproofctr=\count142
+\c@proof=\count143
+\c@currassumptionctr=\count144
+\c@endassumptionctr=\count145
+\c@assumption=\count146
+\c@currdefinitionctr=\count147
+\c@enddefinitionctr=\count148
+\c@definition=\count149
+\c@currpropositionctr=\count150
+\c@endpropositionctr=\count151
+\c@proposition=\count152
+\c@currlemmactr=\count153
+\c@endlemmactr=\count154
+\c@lemma=\count155
+\c@currtheoremctr=\count156
+\c@endtheoremctr=\count157
+\c@theorem=\count158
+\c@curraxiomctr=\count159
+\c@endaxiomctr=\count160
+\c@axiom=\count161
+\c@currcorollaryctr=\count162
+\c@endcorollaryctr=\count163
+\c@corollary=\count164
+\c@currexercisectr=\count165
+\c@endexercisectr=\count166
+\c@exercise=\count167
+\c@currexamplectr=\count168
+\c@endexamplectr=\count169
+\c@example=\count170
+\c@currremarkctr=\count171
+\c@endremarkctr=\count172
+\c@remark=\count173
+\c@currproblemctr=\count174
+\c@endproblemctr=\count175
+\c@problem=\count176
+\c@currconjecturectr=\count177
+\c@endconjecturectr=\count178
+\c@conjecture=\count179
 )
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnutils.sty
 Package: bnutils 2014/03/12 1.52 put any packages you would like to use here
 
 (E:\CTeX\CTeX\MiKTeX\tex\latex\multirow\multirow.sty
-\bigstrutjot=\dimen147
+\bigstrutjot=\dimen160
 )
 (E:\CTeX\CTeX\MiKTeX\tex\latex\tools\tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen148
-\TX@old@table=\dimen149
-\TX@old@col=\dimen150
-\TX@target=\dimen151
-\TX@delta=\dimen152
-\TX@cols=\count177
-\TX@ftn=\toks38
+\TX@col@width=\dimen161
+\TX@old@table=\dimen162
+\TX@old@col=\dimen163
+\TX@target=\dimen164
+\TX@delta=\dimen165
+\TX@cols=\count180
+\TX@ftn=\toks40
 )
 (E:\CTeX\CTeX\MiKTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count178
-\float@exts=\toks39
-\float@box=\box33
-\@float@everytoks=\toks40
-\@floatcapt=\box34
+\c@float@type=\count181
+\float@exts=\toks41
+\float@box=\box34
+\@float@everytoks=\toks42
+\@floatcapt=\box35
 )
 (E:\CTeX\CTeX\MiKTeX\tex\latex\tools\verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks41
-\verbatim@line=\toks42
+\every@verbatim=\toks43
+\verbatim@line=\toks44
 \verbatim@in@stream=\read1
 ))
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.aux
@@ -999,17 +1029,17 @@ File: ot1txr.fd 2000/12/15 v3.1
 )<<ot1.cmap>>
 (E:\CTeX\CTeX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count179
-\scratchdimen=\dimen153
-\scratchbox=\box35
-\nofMPsegments=\count180
-\nofMParguments=\count181
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count182
-\MPscratchDim=\dimen154
-\MPnumerator=\count183
-\makeMPintoPDFobject=\count184
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count182
+\scratchdimen=\dimen166
+\scratchbox=\box36
+\nofMPsegments=\count183
+\nofMParguments=\count184
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count185
+\MPscratchDim=\dimen167
+\MPnumerator=\count186
+\makeMPintoPDFobject=\count187
+\everyMPtoPDFconversion=\toks46
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1020,7 +1050,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box36
+\AtBeginShipoutBox=\box37
 Package hyperref Info: Link coloring OFF on input line 17.
 
 (E:\CTeX\CTeX\MiKTeX\tex\latex\hyperref\nameref.sty
@@ -1029,7 +1059,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (E:\CTeX\CTeX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count185
+\c@section@level=\count188
 )
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
@@ -1038,6 +1068,40 @@ LaTeX Info: Redefining \nameref on input line 17.
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.out)
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.out)
 \@outlinefile=\write3
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 681.44351pt, 92.47145pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=681.44351pt
+* \oddsidemargin=71.13188pt
+* \evensidemargin=71.13188pt
+* \topmargin=-33.0119pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=42.67912pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=-72.26999pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (E:\CTeX\CTeX\MiKTeX\tex\latex\cjk\UTF8\UTF8.bdg
 File: UTF8.bdg 2008/12/29 4.8.2
@@ -1058,12 +1122,12 @@ File: c70song.fd 2009/09/23 4.8.2
 LaTeX Warning: File c7030.cmap not found on input line 17.
 
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/cover.tex)
-<figures/BNU_name.jpg, id=125, 1798.72pt x 472.76625pt>
+<figures/BNU_name.jpg, id=125, 226.8475pt x 102.3825pt>
 File: figures/BNU_name.jpg Graphic file (type jpg)
 
 <use figures/BNU_name.jpg>
 Package pdftex.def Info: figures/BNU_name.jpg used on input line 24.
-(pdftex.def)             Requested size: 234.73523pt x 61.69261pt.
+(pdftex.def)             Requested size: 226.48412pt x 102.21977pt.
 
 
 LaTeX Warning: File c7067.cmap not found on input line 24.
@@ -1304,9 +1368,13 @@ LaTeX Font Info:    Try loading font information for OT1+txss on input line 24.
  (E:\CTeX\CTeX\MiKTeX\tex\latex\txfonts\ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 11.4427pt on input line 24.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <16.06> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 15.25694pt on input line 24.
 
 
@@ -1356,7 +1424,10 @@ l.24 \makecover
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <14.05249> not available
+
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 13.34981pt on input line 24.
 pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
@@ -1371,14 +1442,13 @@ l.27 \tableofcontents
 
 LaTeX Warning: File c7097.cmap not found on input line 4.
 
-[3
-
-
-]
 
 LaTeX Warning: File c708c.cmap not found on input line 22.
 
-)
+[3
+
+
+])
 \tf@toc=\write4
  [4] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.tex
 
@@ -1405,7 +1475,10 @@ LaTeX Warning: File c706f.cmap not found on input line 17.
 
 LaTeX Warning: File c7055.cmap not found on input line 17.
 
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <15.05624> not available
+
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 14.30338pt on input line 20.
 
 LaTeX Warning: File c705a.cmap not found on input line 34.
@@ -1426,22 +1499,24 @@ File: c70fs.fd 2009/09/23 4.8.2
 
 LaTeX Warning: File c709b.cmap not found on input line 44.
 
-[1
-
-
-
-]
 LaTeX Font Info:    Try loading font information for C70+you on input line 48.
- (E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70you.fd
+(E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70you.fd
 File: c70you.fd 2009/09/23 4.8.2
 )
 
 LaTeX Warning: File c7084.cmap not found on input line 49.
 
+[1
+
+
+
+]
 LaTeX Font Info:    Try loading font information for C70+li on input line 59.
-(E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70li.fd
+ (E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70li.fd
 File: c70li.fd 2009/09/23 4.8.2
 )
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 11.4427pt on input line 74.
 LaTeX Font Info:    Try loading font information for OT1+txtt on input line 75.
 
 
@@ -1460,6 +1535,9 @@ Underfull \hbox (badness 10000) in alignment at lines 87--97
 
 LaTeX Warning: File c708e.cmap not found on input line 103.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [2]
 
 LaTeX Warning: File c7087.cmap not found on input line 136.
@@ -1470,11 +1548,12 @@ LaTeX Warning: File c708a.cmap not found on input line 138.
 
 LaTeX Warning: File c7092.cmap not found on input line 139.
 
-[3]
-Overfull \hbox (2.28853pt too wide) in paragraph at lines 151--171
+
+Overfull \hbox (2.28854pt too wide) in paragraph at lines 151--171
 $[]$ $[]$ 
  []
 
+[3]
 
 LaTeX Warning: File c7094.cmap not found on input line 182.
 
@@ -1483,34 +1562,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--215
 []|\OT1/txr/m/n/11.04124 Waxman
  []
 
-[4] [5] [6]
+[4] [5]
 Underfull \hbox (badness 10000) in paragraph at lines 330--335
 
  []
 
+[6]
 Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
 nput line 347.
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 351.
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 359.
-[7]
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
 input line 369.
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
  line 377.
+ [7]
 Package hyperref Info: bookmark level for unknown axiom defaults to 0 on input 
 line 398.
- [8]
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
 line 414.
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
 t line 427.
+ [8]
 Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
 line 443.
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
 put line 454.
- [9]
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
 t line 471.
 Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
@@ -1519,7 +1598,7 @@ Package hyperref Info: bookmark level for unknown conjecture defaults to 0 on i
 nput line 486.
 Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
 t line 492.
-
+ [9]
 
 Package natbib Warning: Citation `tex' on page 10 undefined on input line 507.
 
@@ -1599,11 +1678,10 @@ Package natbib Warning: Citation `cnproceed' on page 10 undefined on input line
 Package natbib Warning: Citation `shaheshang' on page 10 undefined on input lin
 e 515.
 
-[10]
 LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 547
 .
-) [11] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.tex
-<figures/hello.pdf, id=697, 182.6825pt x 51.19125pt>
+[10]) [11] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.tex
+<figures/hello.pdf, id=698, 182.6825pt x 51.19125pt>
 File: figures/hello.pdf Graphic file (type pdf)
  <use figures/hello.pdf>
 Package pdftex.def Info: figures/hello.pdf used on input line 42.
@@ -1617,13 +1695,13 @@ Package pdftex.def Info: figures/hello.pdf used on input line 42.
 [13]
 No file main.bbl.
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/appendix01.tex
-\c@currmpdefctr=\count186
-\c@endmpdefctr=\count187
-\c@mpdef=\count188
+\c@currmpdefctr=\count189
+\c@endmpdefctr=\count190
+\c@mpdef=\count191
 Package hyperref Info: bookmark level for unknown mpdef defaults to 0 on input 
 line 38.
-\c@currmpdefopctr=\count189
-\c@endmpdefopctr=\count190
+\c@currmpdefopctr=\count192
+\c@endmpdefopctr=\count193
 Package hyperref Info: bookmark level for unknown mpdefop defaults to 0 on inpu
 t line 50.
  [14
@@ -1634,14 +1712,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.A.1.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.69 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.A.1.1}) has been already used, duplicate ignored
+l.76 \end{equation}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.A.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.69 \begin{equation}
-                     ]
+l.76 \end{equation}
+                   ]
 Underfull \hbox (badness 10000) in paragraph at lines 103--103
 []|\OT1/txr/m/n/11.04124 Waxman
  []
@@ -1703,13 +1781,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17900 strings out of 495354
- 250432 string characters out of 3183579
- 313762 words of memory out of 3000000
- 19507 multiletter control sequences out of 15000+200000
- 289046 words of font info for 858 fonts, out of 3000000 for 9000
+ 18736 strings out of 495354
+ 263222 string characters out of 3183579
+ 327570 words of memory out of 3000000
+ 20281 multiletter control sequences out of 15000+200000
+ 290634 words of font info for 861 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
- 51i,22n,51p,576b,2523s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,22n,51p,576b,2526s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf>{E:/CTeX/CTeX/MiKTeX/fon
 ts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
 hei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/
@@ -1741,14 +1819,14 @@ s/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C
 u.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fon
 ts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Win
 dows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf
-><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/
-simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Win
-dows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.
-ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fon
-ts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/
-Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfa
-ng.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/
-Fonts/simfang.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Wind
+><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simfang
+.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fo
+nts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:
+/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simf
+ang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows
+/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf>
+<C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/s
+imfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Wind
 ows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.t
 tf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Font
 s/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/W
@@ -1845,13 +1923,13 @@ xsc.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txex.pfb><E:/CTeX/CTeX/
 MiKTeX/fonts/type1/public/txfonts/txsy.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/pub
 lic/txfonts/txsya.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb
 ><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><E:/CTeX/CTeX/MiKTeX/
-fonts/type1/urw/helvetic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/
-utmb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX
-/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on main.pdf (27 pages, 1504392 bytes).
+fonts/type1/urw/helvetic/uhvb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/helvet
+ic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/CTeX/CT
+eX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/ur
+w/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (27 pages, 1471342 bytes).
 PDF statistics:
- 1692 PDF objects out of 1728 (max. 8388607)
+ 1696 PDF objects out of 1728 (max. 8388607)
  133 named destinations out of 1000 (max. 500000)
  595 words of extra memory for PDF output out of 10000 (max. 10000000)
 
