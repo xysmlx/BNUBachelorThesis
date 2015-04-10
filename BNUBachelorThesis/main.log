@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  10 APR 2015 20:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  10 APR 2015 21:01
 entering extended mode
 **main.tex
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.tex
@@ -785,24 +785,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `unicode' set `true' on input line 160.
+Package hyperref Info: Option `unicode' set `true' on input line 150.
 
 (E:\CTeX\CTeX\MiKTeX\tex\latex\hyperref\puenc.def
 File: puenc.def 2012/02/06 v6.82o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `CJKbookmarks' set `false' on input line 160.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 170.
+Package hyperref Info: Option `CJKbookmarks' set `false' on input line 150.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 160.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 170.
-Package hyperref Info: Option `breaklinks' set `true' on input line 170.
-Package hyperref Info: Option `colorlinks' set `false' on input line 170.
-Package hyperref Info: Option `plainpages' set `false' on input line 170.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 160.
+Package hyperref Info: Option `breaklinks' set `true' on input line 160.
+Package hyperref Info: Option `colorlinks' set `false' on input line 160.
+Package hyperref Info: Option `plainpages' set `false' on input line 160.
 
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 170.
+(hyperref)                setting the option has no effect on input line 160.
 
 \bnu@linespace=\skip73
 (E:\CTeX\CTeX\MiKTeX\tex\latex\geometry\geometry.sty
@@ -1122,7 +1122,7 @@ File: c70song.fd 2009/09/23 4.8.2
 LaTeX Warning: File c7030.cmap not found on input line 17.
 
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/cover.tex)
-<figures/BNU_name.jpg, id=125, 226.8475pt x 102.3825pt>
+<figures/BNU_name.jpg, id=129, 226.8475pt x 102.3825pt>
 File: figures/BNU_name.jpg Graphic file (type jpg)
 
 <use figures/BNU_name.jpg>
@@ -1443,7 +1443,7 @@ l.27 \tableofcontents
 LaTeX Warning: File c7097.cmap not found on input line 4.
 
 
-LaTeX Warning: File c708c.cmap not found on input line 22.
+LaTeX Warning: File c708c.cmap not found on input line 23.
 
 [3
 
@@ -1599,89 +1599,11 @@ nput line 486.
 Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
 t line 492.
  [9]
-
-Package natbib Warning: Citation `tex' on page 10 undefined on input line 507.
-
-
-Package natbib Warning: Citation `companion' on page 10 undefined on input line
- 507.
-
-
-Package natbib Warning: Citation `ColdSources' on page 10 undefined on input li
-ne 507.
-
-
-Package natbib Warning: Citation `Krasnogor2004e' on page 10 undefined on input
- line 508.
-
-
-Package natbib Warning: Citation `clzs' on page 10 undefined on input line 508.
-
-
-
-Package natbib Warning: Citation `zjsw' on page 10 undefined on input line 508.
-
-
-
-Package natbib Warning: Citation `ELIDRISSI94' on page 10 undefined on input li
-ne 509.
-
-
-Package natbib Warning: Citation `MELLINGER96' on page 10 undefined on input li
-ne 509.
-
-
-Package natbib Warning: Citation `SHELL02' on page 10 undefined on input line 5
-09.
-
-
-Package natbib Warning: Citation `zhubajie' on page 10 undefined on input line 
-509.
-
-
-Package natbib Warning: Citation `metamori2004' on page 10 undefined on input l
-ine 509.
-
-
-Package natbib Warning: Citation `shaheshang' on page 10 undefined on input lin
-e 510.
-
-
-Package natbib Warning: Citation `FistSystem01' on page 10 undefined on input l
-ine 510.
-
-
-Package natbib Warning: Citation `IEEE-1363' on page 10 undefined on input line
- 510.
-
-
-Package natbib Warning: Citation `DPMG' on page 10 undefined on input line 510.
-
-
-
-Package natbib Warning: Citation `kocher99' on page 10 undefined on input line 
-510.
-
-
-Package natbib Warning: Citation `NPB2' on page 10 undefined on input line 510.
-
-
-
-Package natbib Warning: Citation `cnarticle' on page 10 undefined on input line
- 511.
-
-
-Package natbib Warning: Citation `cnproceed' on page 10 undefined on input line
- 512.
-
-
-Package natbib Warning: Citation `shaheshang' on page 10 undefined on input lin
-e 515.
-
 LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 547
 .
-[10]) [11] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.tex
-<figures/hello.pdf, id=698, 182.6825pt x 51.19125pt>
+ [10]) [11]
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.tex
+<figures/hello.pdf, id=737, 182.6825pt x 51.19125pt>
 File: figures/hello.pdf Graphic file (type pdf)
  <use figures/hello.pdf>
 Package pdftex.def Info: figures/hello.pdf used on input line 42.
@@ -1692,9 +1614,15 @@ Package pdftex.def Info: figures/hello.pdf used on input line 42.
 
 
  <D:/GitHub/BNUBachelorThesis/BNUBachelorThesis/figures/hello.pdf>])
-[13]
-No file main.bbl.
-(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/appendix01.tex
+[13] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.bbl
+LaTeX Font Info:    Calculating math sizes for size <10.53937> on input line 10
+.
+)
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/appendix01.tex [14
+
+
+
+]
 \c@currmpdefctr=\count189
 \c@endmpdefctr=\count190
 \c@mpdef=\count191
@@ -1704,8 +1632,8 @@ line 38.
 \c@endmpdefopctr=\count193
 Package hyperref Info: bookmark level for unknown mpdefop defaults to 0 on inpu
 t line 50.
- [14
 
+[15
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.A.1.
 1}) has been already used, duplicate ignored
@@ -1724,7 +1652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--103
 []|\OT1/txr/m/n/11.04124 Waxman
  []
 
-[15] [16]
+[16] [17]
 
 LaTeX Warning: File c709c.cmap not found on input line 152.
 
@@ -1738,28 +1666,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--190
 []|\OT1/txr/m/n/11.04124 Waxman
  []
 
-[17
+[18
 
-] [18]) [19
+] [19]) [20
 
 ] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/paper.tex)
-[20
+[21
 
 
 
-] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/ack.tex) [21
+] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/ack.tex) [22
 
 
 
 
 ]
 \tf@thm=\write5
-
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.aux
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.aux)
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.aux)
@@ -1774,18 +1699,18 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 5B2C9520D687433484456086B4DA3248;4542
-(rerunfilecheck)             After:  030F4A88AC80B6A1801F22E41AC54977;4020.
+(rerunfilecheck)             Before: FB7B9E2C754E83BA630A512710912673;4629
+(rerunfilecheck)             After:  27114BED85928A49ADFEA01B3CF00269;4107.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18736 strings out of 495354
- 263222 string characters out of 3183579
- 327570 words of memory out of 3000000
- 20281 multiletter control sequences out of 15000+200000
- 290634 words of font info for 861 fonts, out of 3000000 for 9000
+ 18993 strings out of 495354
+ 267986 string characters out of 3183579
+ 329130 words of memory out of 3000000
+ 20439 multiletter control sequences out of 15000+200000
+ 319700 words of font info for 949 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
  51i,22n,51p,576b,2526s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf>{E:/CTeX/CTeX/MiKTeX/fon
@@ -1927,9 +1852,9 @@ fonts/type1/urw/helvetic/uhvb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/helvet
 ic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/CTeX/CT
 eX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/ur
 w/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 1471342 bytes).
+Output written on main.pdf (28 pages, 1487243 bytes).
 PDF statistics:
- 1696 PDF objects out of 1728 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 595 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1748 PDF objects out of 2073 (max. 8388607)
+ 155 named destinations out of 1000 (max. 500000)
+ 603 words of extra memory for PDF output out of 10000 (max. 10000000)
 
