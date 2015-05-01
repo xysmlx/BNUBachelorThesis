@@ -428,7 +428,7 @@
 \def\@makechapterhead#1{%一级标题：三号黑体，加粗
   %\vspace*{0.5\baselineskip}%
   {\parindent \z@ \centering
-    \hei \bf \csname bnu@title@font\endcsname\sanhao[2.0]
+    \hei \bf \csname bnu@title@font\endcsname\sanhao[1.6]
     \ifnum \c@secnumdepth >\m@ne
       \@chapapp\hskip1em
     \fi
@@ -441,7 +441,7 @@
 \def\@makeschapterhead#1{%
   %\vspace*{0.5\baselineskip}%
   {\parindent \z@ \centering
-   \hei \bf \csname bnu@title@font\endcsname\sanhao[2.0]
+   \hei \bf \csname bnu@title@font\endcsname\sanhao[1.6]
      \def\@tempa{#1}
      \def\@tempb{\eabstractname}
      \ifx\@tempa\@tempb\bfseries\fi
@@ -636,7 +636,7 @@
       \parbox[t][9.0cm][t]{\paperwidth-9cm}{
       \sanhao[1] \ \\ \ \\
 
-      \sihao[2.0] \song \bf
+      \sihao[1.6] \song \bf
 	      \bnu@buyuanxi                 \bnu@title@sep \hspace{1em} \bnu@cbuyuanxi\\
 	      \bnu@zhuanye                  \bnu@title@sep \hspace{1em} \bnu@czhuanye\\
 	      \bnu@xuehao                   \bnu@title@sep \hspace{1em} \bnu@cxuehao\\
@@ -675,7 +675,7 @@
   \begin{center}\xiaosi\song \bf{\bnu@declaretitle}\end{center}
   \vskip10pt \xiaosi[1.8]  \bnu@declaration\par
   \vskip14pt  \bnu@declsign\par
-  \sihao[2.0]\song \ \\ \ \\ \ \\
+  \sihao[1.6]\song \ \\ \ \\ \ \\
   \begin{center}\xiaosi\song \bf{\bnu@authtitle}\end{center}
   \vskip10pt \xiaosi[1.8]  \bnu@authorization\par \xiaosi[1.8] \bnu@authorizationplus
   \vskip1.2cm
@@ -705,12 +705,12 @@
   \pagestyle{bnu@plain}
   \pagenumbering{Roman}
   \begin{center}
-  	\sanhao[2.0] \hei \bf \bnu@ctitle \par
+  	\sanhao[1.6] \hei \bf \bnu@ctitle \par
   	\vskip20bp  	
-  	\xiaosan[2.0] \hei \cabstractname %
+  	\xiaosan[1.6] \hei \cabstractname %
   \end{center}
   \vskip20bp
-  \xiaosi[2.0] \song \par \bnu@cabstract
+  \xiaosi[1.6] \song \par \bnu@cabstract
   \vskip20bp
   \setbox0=\hbox{{\sihao \hei\bnu@ckeywords@title}} %	关键词：四号黑体
   \noindent\hangindent\wd0\hangafter1
@@ -718,12 +718,12 @@
 
   \bnu@chapter*[\eabstractname]{} % no tocline %英文摘要：小三号，摘要内容：四号，Times New Roman字体，单倍行距；
   \begin{center}
-  	\sanhao[2.0] \bf \bnu@etitle \par
+  	\sanhao[1.6] \bf \bnu@etitle \par
   	\vskip20bp  	
-  	\xiaosan[2.0] \bf \eabstractname
+  	\xiaosan[1.6] \bf \eabstractname
   \end{center}
   \vskip20bp  	
-  \sihao[2.0] \par \bnu@eabstract
+  \sihao[1.6] \par \bnu@eabstract
   \vskip20bp
   \setbox0=\hbox{\textbf \bnu@ekeywords@title}
   \noindent\hangindent\wd0\hangafter1
@@ -785,9 +785,9 @@
    \list{\@biblabel{\@arabic\c@enumiv .}}%
 		{\renewcommand{\makelabel}[1]{##1\hfill}
          \settowidth\labelwidth{0cm}
-         \setlength{\labelsep}{0.5em} % 标号和列表项之间的距离
-         \setlength{\itemindent}{1em}  % 项内首行缩进
-         \setlength{\leftmargin}{0.5cm} % 左缩进
+         %\setlength{\labelsep}{0.5em} % 标号和列表项之间的距离
+         %\setlength{\itemindent}{1em}  % 项内首行缩进
+         %\setlength{\leftmargin}{0.5cm} % 左缩进
          \setlength{\listparindent}{2em} % 段落间距
          \addtolength{\itemsep}{-0.7em} % 项间距
          \usecounter{enumiv}%
