@@ -315,7 +315,8 @@
 \newcommand*\MakePerPage[2][\@ne]{%
   \expandafter\def\csname c@pchk@#2\endcsname{\c@pchk@{#2}{#1}}%
   \newcounter{pcabs@#2}%
-  \@addtoreset{pchk@#2}{#2}}
+  \@addtoreset{pchk@#2}{#2}
+  }
 \def\new@pagectr#1{\@newl@bel{pchk@#1}}
 \def\c@pchk@#1#2{\z@=\z@
   \begingroup
@@ -562,6 +563,7 @@
 \def\bnu@cdepartment{}
 \bnu@define@term{cmajor}
 \def\csubject{\cmajor} % todo: for compatibility
+% For cover
 \bnu@define@term{cbuyuanxi}
 \bnu@define@term{czhuanye}
 \bnu@define@term{cxuehao}
@@ -586,6 +588,7 @@
 \bnu@define@term{eassosupervisor}
 \bnu@define@term{ecosupervisor}
 \bnu@define@term{edate}
+
 \long\@xp\def\@xp\collect@@body\@xp#\@xp1\@xp\end\@xp#\@xp2\@xp{%
   \collect@@body{#1}\end{#2}}
 \long\@xp\def\@xp\push@begins\@xp#\@xp1\@xp\begin\@xp#\@xp2\@xp{%
@@ -777,8 +780,8 @@
 \def\bnumasterbib{\ifbnu@doctor [M]\else [Master Thesis]\fi}
 \def\bnuphdbib{\ifbnu@doctor [D]\else [Doctor Thesis]\fi}
 % 定义参考文献编号格式
-\def\bibleftdelim{}
-\def\bibrightdelim{.}
+\def\bibleftdelim{[}
+\def\bibrightdelim{]}
 \def\@biblabel#1{\bibleftdelim #1\bibrightdelim}
 \renewenvironment{thebibliography}[1]{%
    \bnu@chapter*{\bibname}%
@@ -805,12 +808,15 @@
     \endlist\frenchspacing}
 
 %正文图表公式编号
+\RequirePackage{chngcntr}
 \RequirePackage{amsmath}
 \RequirePackage{mathtools}
 \newtagform{empty}{{式}}{}
 \usetagform{empty}
+\counterwithout{table}{chapter}
+\counterwithout{figure}{chapter}
 \renewcommand\theequation{（\thechapter-\@arabic\c@equation）}
-\renewcommand\thetable{\@arabic\c@table}
+\renewcommand\thetable{\@arabic \c@table}
 \renewcommand\thefigure{\@arabic\c@figure}
 
 \RequirePackage{CJKnumb}
@@ -818,6 +824,8 @@
 \let\bnu@appendix\appendix
 \renewenvironment{appendix}{%
   \bnu@appendix
+  \setcounter{table}{0}
+  \setcounter{figure}{0}
   \renewcommand \thechapter { \@Roman\c@chapter} %% 附录用罗马数字编码
   \gdef\@chapapp{\appendixname~\thechapter}
   % 附录图表公式编号格式

@@ -7,6 +7,17 @@ Latex Template of BNU Bachelor Thesis based on BNUThesis_1.52.1
 ***
 ## Build History
 ***
+### Version 0.1 build 150506
+#### Update
+1. 重大Bug修复（图表编号每chapter清零）
+2. 支持参考文献编号格式[1]
+3. Bugs fixed
+4. et.al.
+
+#### Pending to solve (DDL Before 5.15)
+1. 目录条目间距
+
+***
 ### Version 0.1 build 150504
 #### Update
 1. 更改正文和附录图表公式格式（感谢指出问题所在）
