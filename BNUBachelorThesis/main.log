@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  5 MAY 2015 13:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  5 MAY 2015 15:56
 entering extended mode
 **main.tex
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.tex
@@ -851,86 +851,116 @@ Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 \l_MT_shortvdotswithinadjustabove_dim=\dimen161
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen162
 )
-(E:\CTeX\CTeX\MiKTeX\tex\latex\cjk\cjknumb.sty
+(E:\CTeX\CTeX\MiKTeX\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
 
-LaTeX Warning: You have requested package `cjknumb',
-               but the package provides `CJKnumb'.
+(E:\CTeX\CTeX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count142
+\float@exts=\toks40
+\float@box=\box34
+\@float@everytoks=\toks41
+\@floatcapt=\box35
+)
+\@float@every@algorithm=\toks42
+\c@algorithm=\count143
+)
+(E:\CTeX\CTeX\MiKTeX\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count144
+\c@ALC@line=\count145
+\c@ALC@rem=\count146
+\c@ALC@depth=\count147
+\ALC@tlm=\skip79
+\algorithmicindent=\skip80
+)
+(E:\CTeX\CTeX\MiKTeX\tex\latex\oberdiek\epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-Package: CJKnumb 2008/12/29 4.8.2
-\CJK@q=\count142
-\CJK@r=\count143
-LaTeX Info: Redefining \CJKnumber on input line 327.
-LaTeX Info: Redefining \CJKdigits on input line 374.
+(E:\CTeX\CTeX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(E:\CTeX\CTeX\MiKTeX\tex\latex\oberdiek\grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(E:\CTeX\CTeX\MiKTeX\tex\latex\graphics\epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen163
+\epsfysize=\dimen164
+)
+(E:\CTeX\CTeX\MiKTeX\tex\latex\listing\listing.sty
+Package: listing 1999/05/25
+
+Package `listing', V1.2, <1999/05/25>
+\c@listing=\count148
 )) (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnuthesis.cfg
 File: bnuthesis.cfg 2014/03/12 1.52 Beijing Normal University Thesis Template
-\c@currproofctr=\count144
-\c@endproofctr=\count145
-\c@proof=\count146
-\c@currassumptionctr=\count147
-\c@endassumptionctr=\count148
-\c@assumption=\count149
-\c@currdefinitionctr=\count150
-\c@enddefinitionctr=\count151
-\c@definition=\count152
-\c@currpropositionctr=\count153
-\c@endpropositionctr=\count154
-\c@proposition=\count155
-\c@currlemmactr=\count156
-\c@endlemmactr=\count157
-\c@lemma=\count158
-\c@currtheoremctr=\count159
-\c@endtheoremctr=\count160
-\c@theorem=\count161
-\c@curraxiomctr=\count162
-\c@endaxiomctr=\count163
-\c@axiom=\count164
-\c@currcorollaryctr=\count165
-\c@endcorollaryctr=\count166
-\c@corollary=\count167
-\c@currexercisectr=\count168
-\c@endexercisectr=\count169
-\c@exercise=\count170
-\c@currexamplectr=\count171
-\c@endexamplectr=\count172
-\c@example=\count173
-\c@currremarkctr=\count174
-\c@endremarkctr=\count175
-\c@remark=\count176
-\c@currproblemctr=\count177
-\c@endproblemctr=\count178
-\c@problem=\count179
-\c@currconjecturectr=\count180
-\c@endconjecturectr=\count181
-\c@conjecture=\count182
+\c@currproofctr=\count149
+\c@endproofctr=\count150
+\c@proof=\count151
+\c@currassumptionctr=\count152
+\c@endassumptionctr=\count153
+\c@assumption=\count154
+\c@currdefinitionctr=\count155
+\c@enddefinitionctr=\count156
+\c@definition=\count157
+\c@currpropositionctr=\count158
+\c@endpropositionctr=\count159
+\c@proposition=\count160
+\c@currlemmactr=\count161
+\c@endlemmactr=\count162
+\c@lemma=\count163
+\c@currtheoremctr=\count164
+\c@endtheoremctr=\count165
+\c@theorem=\count166
+\c@curraxiomctr=\count167
+\c@endaxiomctr=\count168
+\c@axiom=\count169
+\c@currcorollaryctr=\count170
+\c@endcorollaryctr=\count171
+\c@corollary=\count172
+\c@currexercisectr=\count173
+\c@endexercisectr=\count174
+\c@exercise=\count175
+\c@currexamplectr=\count176
+\c@endexamplectr=\count177
+\c@example=\count178
+\c@currremarkctr=\count179
+\c@endremarkctr=\count180
+\c@remark=\count181
+\c@currproblemctr=\count182
+\c@endproblemctr=\count183
+\c@problem=\count184
+\c@currconjecturectr=\count185
+\c@endconjecturectr=\count186
+\c@conjecture=\count187
 )
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnutils.sty
 Package: bnutils 2014/03/12 1.52 put any packages you would like to use here
 
 (E:\CTeX\CTeX\MiKTeX\tex\latex\multirow\multirow.sty
-\bigstrutjot=\dimen163
+\bigstrutjot=\dimen165
 )
 (E:\CTeX\CTeX\MiKTeX\tex\latex\tools\tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen164
-\TX@old@table=\dimen165
-\TX@old@col=\dimen166
-\TX@target=\dimen167
-\TX@delta=\dimen168
-\TX@cols=\count183
-\TX@ftn=\toks40
-)
-(E:\CTeX\CTeX\MiKTeX\tex\latex\float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count184
-\float@exts=\toks41
-\float@box=\box34
-\@float@everytoks=\toks42
-\@floatcapt=\box35
+\TX@col@width=\dimen166
+\TX@old@table=\dimen167
+\TX@old@col=\dimen168
+\TX@target=\dimen169
+\TX@delta=\dimen170
+\TX@cols=\count188
+\TX@ftn=\toks43
 )
 (E:\CTeX\CTeX\MiKTeX\tex\latex\tools\verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks43
-\verbatim@line=\toks44
+\every@verbatim=\toks44
+\verbatim@line=\toks45
 \verbatim@in@stream=\read1
 ))
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.aux
@@ -1051,17 +1081,17 @@ File: ot1txr.fd 2000/12/15 v3.1
 )<<ot1.cmap>>
 (E:\CTeX\CTeX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count185
-\scratchdimen=\dimen169
+\scratchcounter=\count189
+\scratchdimen=\dimen171
 \scratchbox=\box36
-\nofMPsegments=\count186
-\nofMParguments=\count187
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count188
-\MPscratchDim=\dimen170
-\MPnumerator=\count189
-\makeMPintoPDFobject=\count190
-\everyMPtoPDFconversion=\toks46
+\nofMPsegments=\count190
+\nofMParguments=\count191
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count192
+\MPscratchDim=\dimen172
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
+\everyMPtoPDFconversion=\toks47
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1081,7 +1111,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (E:\CTeX\CTeX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count191
+\c@section@level=\count195
 )
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
@@ -1144,7 +1174,7 @@ File: c70song.fd 2009/09/23 4.8.2
 LaTeX Warning: File c7030.cmap not found on input line 17.
 
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/cover.tex)
-<figures/BNU_name.jpg, id=129, 226.8475pt x 102.3825pt>
+<figures/BNU_name.jpg, id=137, 226.8475pt x 102.3825pt>
 File: figures/BNU_name.jpg Graphic file (type jpg)
 
 <use figures/BNU_name.jpg>
@@ -1462,18 +1492,30 @@ l.27 \tableofcontents
 ]
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.toc
 
-LaTeX Warning: File c7097.cmap not found on input line 4.
+LaTeX Warning: File c7097.cmap not found on input line 6.
 
 [3
 
 
 ]
 
-LaTeX Warning: File c708c.cmap not found on input line 23.
+LaTeX Warning: File c708c.cmap not found on input line 25.
 
 )
 \tf@toc=\write4
- [4] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.tex
+ [4] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.lof)
+\tf@lof=\write5
+ [5
+
+
+]
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.lot)
+\tf@lot=\write6
+ [6
+
+
+]
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.tex
 
 LaTeX Warning: File c709f.cmap not found on input line 13.
 
@@ -1623,7 +1665,7 @@ LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 547
 .
  [10]) [11]
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap02.tex
-<figures/hello.pdf, id=737, 182.6825pt x 51.19125pt>
+<figures/hello.pdf, id=774, 182.6825pt x 51.19125pt>
 File: figures/hello.pdf Graphic file (type pdf)
  <use figures/hello.pdf>
 Package pdftex.def Info: figures/hello.pdf used on input line 42.
@@ -1643,13 +1685,13 @@ LaTeX Font Info:    Calculating math sizes for size <10.53937> on input line 10
 
 ])
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/appendix01.tex [15]
-\c@currmpdefctr=\count192
-\c@endmpdefctr=\count193
-\c@mpdef=\count194
+\c@currmpdefctr=\count196
+\c@endmpdefctr=\count197
+\c@mpdef=\count198
 Package hyperref Info: bookmark level for unknown mpdef defaults to 0 on input 
 line 38.
-\c@currmpdefopctr=\count195
-\c@endmpdefopctr=\count196
+\c@currmpdefopctr=\count199
+\c@endmpdefopctr=\count200
 Package hyperref Info: bookmark level for unknown mpdefop defaults to 0 on inpu
 t line 50.
 
@@ -1701,7 +1743,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--190
 
 
 ]
-\tf@thm=\write5
+\tf@thm=\write7
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 
@@ -1719,20 +1761,20 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: FB7B9E2C754E83BA630A512710912673;4629
-(rerunfilecheck)             After:  27114BED85928A49ADFEA01B3CF00269;4107.
+(rerunfilecheck)             Before: 89A50B8438CD36F0F5400CD623F5CA8F;4802
+(rerunfilecheck)             After:  581BA39BFD7562F1A543D6DF2D7C28F0;4280.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19414 strings out of 495354
- 275191 string characters out of 3183579
- 339909 words of memory out of 3000000
- 20845 multiletter control sequences out of 15000+200000
- 319700 words of font info for 949 fonts, out of 3000000 for 9000
+ 19796 strings out of 495354
+ 281208 string characters out of 3183579
+ 344923 words of memory out of 3000000
+ 21174 multiletter control sequences out of 15000+200000
+ 323819 words of font info for 963 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
- 51i,22n,51p,576b,2529s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,22n,51p,576b,2532s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf>{E:/CTeX/CTeX/MiKTeX/fon
 ts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
 hei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/
@@ -1811,21 +1853,8 @@ ndows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
 f><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
 imhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows
 /Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:
-/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><E:/CTeX/CTeX/CTeX/fonts
-/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.t
-tf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/font
-s/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.
-ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fon
-ts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun
-.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fo
-nts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsu
-n.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/si
-mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
-Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
-Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
-ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><E:/CTeX/CTeX/CTe
-X/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/s
-imsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CT
+/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
+.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><E:/CTeX/CTeX/CT
 eX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/
 simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/C
 TeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese
@@ -1833,13 +1862,11 @@ TeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese
 CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chines
 e/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX
 /CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chine
-se/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTe
-X/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chin
-ese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CT
-eX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chi
-nese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/C
-TeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/ch
-inese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/
+se/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
+Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
+ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
+/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><E:/CTeX/
 CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/c
 hinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX
 /CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/
@@ -1854,27 +1881,44 @@ CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truet
 ype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:
 /CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/true
 type/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E
-:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf
-><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
+:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><
+E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/tr
+uetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf>
+<E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf
+><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/
+truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.tt
+f><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts
+/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.t
+tf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/font
+s/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.
+ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun
+.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fo
+nts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsu
+n.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/si
 mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
-Fonts/simhei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/
-CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/c
-hinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX
-/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/
-chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTe
-X/CTeX/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><E:/CTeX/CTeX/MiKTeX/fonts/t
-ype1/public/txfonts/rtxr.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/rt
-xsc.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txex.pfb><E:/CTeX/CTeX/
-MiKTeX/fonts/type1/public/txfonts/txsy.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/pub
-lic/txfonts/txsya.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb
-><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><E:/CTeX/CTeX/MiKTeX/
-fonts/type1/urw/helvetic/uhvb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/helvet
-ic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/CTeX/CT
-eX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/ur
-w/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (29 pages, 1488737 bytes).
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
+Windows/Fonts/simhei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><
+E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/tr
+uetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf>
+<E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf
+><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><E:/CTeX/CTeX/MiKTeX
+/fonts/type1/public/txfonts/rtxr.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/tx
+fonts/rtxsc.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txex.pfb><E:/CT
+eX/CTeX/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><E:/CTeX/CTeX/MiKTeX/fonts/t
+ype1/public/txfonts/txsya.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/t
+xsyc.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><E:/CTeX/CTeX
+/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/ur
+w/helvetic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:
+/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/
+type1/urw/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on main.pdf (31 pages, 1504600 bytes).
 PDF statistics:
- 1752 PDF objects out of 2073 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 603 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1797 PDF objects out of 2073 (max. 8388607)
+ 162 named destinations out of 1000 (max. 500000)
+ 619 words of extra memory for PDF output out of 10000 (max. 10000000)
 

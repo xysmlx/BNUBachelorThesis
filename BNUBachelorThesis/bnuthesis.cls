@@ -813,7 +813,7 @@
 \renewcommand\thetable{\@arabic\c@table}
 \renewcommand\thefigure{\@arabic\c@figure}
 
-\RequirePackage{cjknumb}
+\RequirePackage{CJKnumb}
 
 \let\bnu@appendix\appendix
 \renewenvironment{appendix}{%
@@ -902,46 +902,51 @@
   \def\@begindocumenthook{\bnu@begindocumenthook\bnu@beginCJK}
   \def\@enddocumenthook{\bnu@endCJK\bnu@enddocumenthook}
 \fi
-\AtEndOfClass{\sloppy\bnu@item@space}
-\endinput
 
 \RequirePackage{algorithm}
 \RequirePackage{algorithmic}
+\RequirePackage{graphicx}
 \RequirePackage{epstopdf}
+\RequirePackage{epsfig}
 \RequirePackage{listing}
-\lstset{tabsize=4, %
-  frame=single, %把代码用带有阴影的框圈起来
-  keywordstyle=\color[rgb]{0,0,1},
-  commentstyle=\color[rgb]{0.133,0.545,0.133},
-  stringstyle=\color[rgb]{0.627,0.126,0.941},
-  %commentstyle=\color{red!50!green!50!blue!50},% 浅灰色的注释
-  rulesepcolor=\color{red!20!green!20!blue!20},% 代码块边框为淡青色
-  %keywordstyle=\color{blue!90}\bfseries, %代码关键字的颜色为蓝色，粗体
-  showstringspaces=false,% 不显示代码字符串中间的空格标记
-  stringstyle=\ttfamily, % 代码字符串的特殊格式
-  keepspaces=true, %
-  breakindent=22pt, %
-  numbers=left,%左侧显示行号
-  stepnumber=1,%
-  numberstyle=\footnotesize, %行号字体用小号
-  basicstyle=\footnotesize, %
-  showspaces=false, %
-  flexiblecolumns=true, %
-  breaklines=true, % 对过长的代码自动换行
-  breakautoindent=true,%
-  breakindent=4em, %
-  escapebegin=\begin{CJK*}{GBK}{hei},escapeend=\end{CJK*},
-  aboveskip=1em, %代码块边框
-  %% added by http://bbs.ctex.org/viewthread.php?tid=53451
-  fontadjust,
-  captionpos=t,
-  framextopmargin=2pt,framexbottommargin=2pt,abovecaptionskip=-3pt,belowcaptionskip=3pt,
-  xleftmargin=4em,xrightmargin=4em, % 设定listing左右的空白
-  texcl=true,
-  % 设定中文冲突，断行，列模式，数学环境输入，listing 数字的样式
-  extendedchars=false,columns=flexible,mathescape=true
-  % numbersep=-1em
-}
+%\lstset{tabsize=4, %
+%  frame=single, %把代码用带有阴影的框圈起来
+%  keywordstyle=\color[rgb]{0,0,1},
+%  commentstyle=\color[rgb]{0.133,0.545,0.133},
+%  stringstyle=\color[rgb]{0.627,0.126,0.941},
+%  %commentstyle=\color{red!50!green!50!blue!50},% 浅灰色的注释
+%  rulesepcolor=\color{red!20!green!20!blue!20},% 代码块边框为淡青色
+%  %keywordstyle=\color{blue!90}\bfseries, %代码关键字的颜色为蓝色，粗体
+%  showstringspaces=false,% 不显示代码字符串中间的空格标记
+%  stringstyle=\ttfamily, % 代码字符串的特殊格式
+%  keepspaces=true, %
+%  breakindent=22pt, %
+%  numbers=left,%左侧显示行号
+%  stepnumber=1,%
+%  numberstyle=\footnotesize, %行号字体用小号
+%  basicstyle=\footnotesize, %
+%  showspaces=false, %
+%  flexiblecolumns=true, %
+%  breaklines=true, % 对过长的代码自动换行
+%  breakautoindent=true,%
+%  breakindent=4em, %
+%  escapebegin=\begin{CJK*}{GBK}{hei},escapeend=\end{CJK*},
+%  aboveskip=1em, %代码块边框
+%  %% added by http://bbs.ctex.org/viewthread.php?tid=53451
+%  fontadjust,
+%  captionpos=t,
+%  framextopmargin=2pt,framexbottommargin=2pt,abovecaptionskip=-3pt,belowcaptionskip=3pt,
+%  xleftmargin=4em,xrightmargin=4em, % 设定listing左右的空白
+%  texcl=true,
+%  % 设定中文冲突，断行，列模式，数学环境输入，listing 数字的样式
+%  extendedchars=false,columns=flexible,mathescape=true
+%  % numbersep=-1em
+%}
+
+\AtEndOfClass{\sloppy\bnu@item@space}
+\endinput
+
+
 
 %%
 %% End of file `bnuthesis.cls'.
