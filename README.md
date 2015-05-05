@@ -2,7 +2,7 @@
 Latex Template of BNU Bachelor Thesis based on BNUThesis_1.52.1
 
 * **如果有修改，只需覆盖掉bnuthesis.cls文件和bnuthesis.cfg文件即可变为最新版，论文正文不用变，建议交终稿前看一下更新（看时间戳即可）**
-* **如果编译不过，试试安装字体，推荐使用PDFLaTeX（一次编译流程：PDFLaTeX+BiBTeX+PDFLaTeX+PDFLaTeX）或者XeLaTeX（CTeX和MACTeX均编译通过）**
+* **如果编译不过，试试安装字体（在References文件夹中），推荐使用PDFLaTeX（一次编译流程：PDFLaTeX+BiBTeX+PDFLaTeX+PDFLaTeX）或者XeLaTeX（CTeX和MACTeX均编译通过）**
 
 ***
 ## Build History
