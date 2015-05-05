@@ -1,11 +1,22 @@
 # BNUBachelorThesis
 Latex Template of BNU Bachelor Thesis based on BNUThesis_1.52.1
 
-* **如果有修改，只需覆盖掉bnuthesis.cls文件和bnuthesis.cfg文件即可变为最新版，论文正文不用变，建议交终稿前看一下更新**
-* **如果编译不过，试试安装字体，推荐使用PDFLaTeX（一次编译流程：PDFLaTeX+BiBTeX+PDFLaTeX+PDFLaTeX）或者XeLaTeX**
+* **如果有修改，只需覆盖掉bnuthesis.cls文件和bnuthesis.cfg文件即可变为最新版，论文正文不用变，建议交终稿前看一下更新（看时间戳即可）**
+* **如果编译不过，试试安装字体，推荐使用PDFLaTeX（一次编译流程：PDFLaTeX+BiBTeX+PDFLaTeX+PDFLaTeX）或者XeLaTeX（CTeX和MACTeX均编译通过）**
 
 ***
 ## Build History
+***
+### Version 0.1 build 150504
+#### Update
+1. 更改正文和附录图表公式格式（感谢指出问题所在）
+2. Chapter标题上下间距（感谢指出问题所在）
+3. et.al.
+
+#### Pending to solve (DDL Before 5.15)
+1. 目录条目间距
+2. 支持参考文献编号格式[1]
+
 ***
 ### Version 0.1 build 150430
 #### Update

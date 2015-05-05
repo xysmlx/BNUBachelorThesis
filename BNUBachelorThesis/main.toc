@@ -16,15 +16,15 @@
 \contentsline {subsection}{\numberline {2.1.2}插图}{12}{subsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.2.1}一个图形}{12}{subsubsection.2.1.2.1}
 \contentsline {chapter}{参考文献}{14}{section*.17}
-\contentsline {chapter}{附录\nobreakspace {} I\hspace {1em} 外文资料原文}{15}{appendix.A}
-\contentsline {section}{\numberline { I.1}Single-Objective Programming}{15}{section.A.1}
-\contentsline {subsection}{\numberline { I.1.1}Linear Programming}{16}{subsection.A.1.1}
-\contentsline {subsection}{\numberline { I.1.2}Nonlinear Programming}{16}{subsection.A.1.2}
-\contentsline {chapter}{附录\nobreakspace {} II\hspace {1em} 外文资料的调研阅读报告或书面翻译}{18}{appendix.B}
-\contentsline {section}{\numberline { II.1}单目标规划}{18}{section.B.1}
-\contentsline {subsection}{\numberline { II.1.1}线性规划}{18}{subsection.B.1.1}
-\contentsline {subsection}{\numberline { II.1.2}非线性规划}{19}{subsection.B.1.2}
-\contentsline {chapter}{附录\nobreakspace {} III\hspace {1em} 其它附录}{20}{appendix.C}
-\contentsline {chapter}{学术成果}{21}{section*.28}
-\contentsline {chapter}{致谢}{22}{section*.30}
+\contentsline {chapter}{附录\nobreakspace {} I\hspace {1em} 外文资料原文}{16}{appendix.A}
+\contentsline {section}{\numberline { I.1}Single-Objective Programming}{16}{section.A.1}
+\contentsline {subsection}{\numberline { I.1.1}Linear Programming}{17}{subsection.A.1.1}
+\contentsline {subsection}{\numberline { I.1.2}Nonlinear Programming}{18}{subsection.A.1.2}
+\contentsline {chapter}{附录\nobreakspace {} II\hspace {1em} 外文资料的调研阅读报告或书面翻译}{19}{appendix.B}
+\contentsline {section}{\numberline { II.1}单目标规划}{19}{section.B.1}
+\contentsline {subsection}{\numberline { II.1.1}线性规划}{19}{subsection.B.1.1}
+\contentsline {subsection}{\numberline { II.1.2}非线性规划}{20}{subsection.B.1.2}
+\contentsline {chapter}{附录\nobreakspace {} III\hspace {1em} 其它附录}{21}{appendix.C}
+\contentsline {chapter}{学术成果}{22}{section*.28}
+\contentsline {chapter}{致谢}{23}{section*.30}
 \contentsfinish 

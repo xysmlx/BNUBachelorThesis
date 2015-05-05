@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  5 MAY 2015 11:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  5 MAY 2015 13:55
 entering extended mode
 **main.tex
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.tex
@@ -785,24 +785,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `unicode' set `true' on input line 150.
+Package hyperref Info: Option `unicode' set `true' on input line 151.
 
 (E:\CTeX\CTeX\MiKTeX\tex\latex\hyperref\puenc.def
 File: puenc.def 2012/02/06 v6.82o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `CJKbookmarks' set `false' on input line 150.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 160.
+Package hyperref Info: Option `CJKbookmarks' set `false' on input line 151.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 161.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 160.
-Package hyperref Info: Option `breaklinks' set `true' on input line 160.
-Package hyperref Info: Option `colorlinks' set `false' on input line 160.
-Package hyperref Info: Option `plainpages' set `false' on input line 160.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 161.
+Package hyperref Info: Option `breaklinks' set `true' on input line 161.
+Package hyperref Info: Option `colorlinks' set `false' on input line 161.
+Package hyperref Info: Option `plainpages' set `false' on input line 161.
 
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 160.
+(hyperref)                setting the option has no effect on input line 161.
 
 \bnu@linespace=\skip73
 (E:\CTeX\CTeX\MiKTeX\tex\latex\geometry\geometry.sty
@@ -838,68 +838,90 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthfirst=\dimen159
 )
 \bnu@title@width=\skip77
+
+(E:\CTeX\CTeX\MiKTeX\tex\latex\mh\mathtools.sty
+Package: mathtools 2011/04/06 v1.11 mathematical typesetting tools
+
+(E:\CTeX\CTeX\MiKTeX\tex\latex\mh\mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnuthesis.cfg
+\g_MT_multlinerow_int=\count141
+\l_MT_multwidth_dim=\dimen160
+\origjot=\skip78
+\l_MT_shortvdotswithinadjustabove_dim=\dimen161
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen162
+)
+(E:\CTeX\CTeX\MiKTeX\tex\latex\cjk\cjknumb.sty
+
+LaTeX Warning: You have requested package `cjknumb',
+               but the package provides `CJKnumb'.
+
+Package: CJKnumb 2008/12/29 4.8.2
+\CJK@q=\count142
+\CJK@r=\count143
+LaTeX Info: Redefining \CJKnumber on input line 327.
+LaTeX Info: Redefining \CJKdigits on input line 374.
+)) (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnuthesis.cfg
 File: bnuthesis.cfg 2014/03/12 1.52 Beijing Normal University Thesis Template
-\c@currproofctr=\count141
-\c@endproofctr=\count142
-\c@proof=\count143
-\c@currassumptionctr=\count144
-\c@endassumptionctr=\count145
-\c@assumption=\count146
-\c@currdefinitionctr=\count147
-\c@enddefinitionctr=\count148
-\c@definition=\count149
-\c@currpropositionctr=\count150
-\c@endpropositionctr=\count151
-\c@proposition=\count152
-\c@currlemmactr=\count153
-\c@endlemmactr=\count154
-\c@lemma=\count155
-\c@currtheoremctr=\count156
-\c@endtheoremctr=\count157
-\c@theorem=\count158
-\c@curraxiomctr=\count159
-\c@endaxiomctr=\count160
-\c@axiom=\count161
-\c@currcorollaryctr=\count162
-\c@endcorollaryctr=\count163
-\c@corollary=\count164
-\c@currexercisectr=\count165
-\c@endexercisectr=\count166
-\c@exercise=\count167
-\c@currexamplectr=\count168
-\c@endexamplectr=\count169
-\c@example=\count170
-\c@currremarkctr=\count171
-\c@endremarkctr=\count172
-\c@remark=\count173
-\c@currproblemctr=\count174
-\c@endproblemctr=\count175
-\c@problem=\count176
-\c@currconjecturectr=\count177
-\c@endconjecturectr=\count178
-\c@conjecture=\count179
+\c@currproofctr=\count144
+\c@endproofctr=\count145
+\c@proof=\count146
+\c@currassumptionctr=\count147
+\c@endassumptionctr=\count148
+\c@assumption=\count149
+\c@currdefinitionctr=\count150
+\c@enddefinitionctr=\count151
+\c@definition=\count152
+\c@currpropositionctr=\count153
+\c@endpropositionctr=\count154
+\c@proposition=\count155
+\c@currlemmactr=\count156
+\c@endlemmactr=\count157
+\c@lemma=\count158
+\c@currtheoremctr=\count159
+\c@endtheoremctr=\count160
+\c@theorem=\count161
+\c@curraxiomctr=\count162
+\c@endaxiomctr=\count163
+\c@axiom=\count164
+\c@currcorollaryctr=\count165
+\c@endcorollaryctr=\count166
+\c@corollary=\count167
+\c@currexercisectr=\count168
+\c@endexercisectr=\count169
+\c@exercise=\count170
+\c@currexamplectr=\count171
+\c@endexamplectr=\count172
+\c@example=\count173
+\c@currremarkctr=\count174
+\c@endremarkctr=\count175
+\c@remark=\count176
+\c@currproblemctr=\count177
+\c@endproblemctr=\count178
+\c@problem=\count179
+\c@currconjecturectr=\count180
+\c@endconjecturectr=\count181
+\c@conjecture=\count182
 )
 (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\bnutils.sty
 Package: bnutils 2014/03/12 1.52 put any packages you would like to use here
 
 (E:\CTeX\CTeX\MiKTeX\tex\latex\multirow\multirow.sty
-\bigstrutjot=\dimen160
+\bigstrutjot=\dimen163
 )
 (E:\CTeX\CTeX\MiKTeX\tex\latex\tools\tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen161
-\TX@old@table=\dimen162
-\TX@old@col=\dimen163
-\TX@target=\dimen164
-\TX@delta=\dimen165
-\TX@cols=\count180
+\TX@col@width=\dimen164
+\TX@old@table=\dimen165
+\TX@old@col=\dimen166
+\TX@target=\dimen167
+\TX@delta=\dimen168
+\TX@cols=\count183
 \TX@ftn=\toks40
 )
 (E:\CTeX\CTeX\MiKTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count181
+\c@float@type=\count184
 \float@exts=\toks41
 \float@box=\box34
 \@float@everytoks=\toks42
@@ -1029,16 +1051,16 @@ File: ot1txr.fd 2000/12/15 v3.1
 )<<ot1.cmap>>
 (E:\CTeX\CTeX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count182
-\scratchdimen=\dimen166
+\scratchcounter=\count185
+\scratchdimen=\dimen169
 \scratchbox=\box36
-\nofMPsegments=\count183
-\nofMParguments=\count184
+\nofMPsegments=\count186
+\nofMParguments=\count187
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count185
-\MPscratchDim=\dimen167
-\MPnumerator=\count186
-\makeMPintoPDFobject=\count187
+\MPscratchCnt=\count188
+\MPscratchDim=\dimen170
+\MPnumerator=\count189
+\makeMPintoPDFobject=\count190
 \everyMPtoPDFconversion=\toks46
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1059,7 +1081,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (E:\CTeX\CTeX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count188
+\c@section@level=\count191
 )
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
@@ -1442,13 +1464,14 @@ l.27 \tableofcontents
 
 LaTeX Warning: File c7097.cmap not found on input line 4.
 
-
-LaTeX Warning: File c708c.cmap not found on input line 23.
-
 [3
 
 
-])
+]
+
+LaTeX Warning: File c708c.cmap not found on input line 23.
+
+)
 \tf@toc=\write4
  [4] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.tex
 
@@ -1499,20 +1522,20 @@ File: c70fs.fd 2009/09/23 4.8.2
 
 LaTeX Warning: File c709b.cmap not found on input line 44.
 
-LaTeX Font Info:    Try loading font information for C70+you on input line 48.
-(E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70you.fd
-File: c70you.fd 2009/09/23 4.8.2
-)
-
-LaTeX Warning: File c7084.cmap not found on input line 49.
-
 [1
 
 
 
 ]
+LaTeX Font Info:    Try loading font information for C70+you on input line 48.
+ (E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70you.fd
+File: c70you.fd 2009/09/23 4.8.2
+)
+
+LaTeX Warning: File c7084.cmap not found on input line 49.
+
 LaTeX Font Info:    Try loading font information for C70+li on input line 59.
- (E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70li.fd
+(E:\CTeX\CTeX\CTeX\tex\latex\CJK\UTF8\c70li.fd
 File: c70li.fd 2009/09/23 4.8.2
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
@@ -1535,9 +1558,6 @@ Underfull \hbox (badness 10000) in alignment at lines 87--97
 
 LaTeX Warning: File c708e.cmap not found on input line 103.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [2]
 
 LaTeX Warning: File c7087.cmap not found on input line 136.
@@ -1549,11 +1569,13 @@ LaTeX Warning: File c708a.cmap not found on input line 138.
 LaTeX Warning: File c7092.cmap not found on input line 139.
 
 
+LaTeX Warning: File ot16d.cmap not found on input line 147.
+
+[3]
 Overfull \hbox (2.28854pt too wide) in paragraph at lines 151--171
 $[]$ $[]$ 
  []
 
-[3]
 
 LaTeX Warning: File c7094.cmap not found on input line 182.
 
@@ -1570,8 +1592,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--335
 [6]
 Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
 nput line 347.
-Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 351.
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 359.
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
@@ -1617,42 +1637,42 @@ Package pdftex.def Info: figures/hello.pdf used on input line 42.
 [13] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\main.bbl
 LaTeX Font Info:    Calculating math sizes for size <10.53937> on input line 10
 .
-)
-(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/appendix01.tex [14
+ [14
 
 
 
-]
-\c@currmpdefctr=\count189
-\c@endmpdefctr=\count190
-\c@mpdef=\count191
+])
+(D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/appendix01.tex [15]
+\c@currmpdefctr=\count192
+\c@endmpdefctr=\count193
+\c@mpdef=\count194
 Package hyperref Info: bookmark level for unknown mpdef defaults to 0 on input 
 line 38.
-\c@currmpdefopctr=\count192
-\c@endmpdefopctr=\count193
+\c@currmpdefopctr=\count195
+\c@endmpdefopctr=\count196
 Package hyperref Info: bookmark level for unknown mpdefop defaults to 0 on inpu
 t line 50.
 
-[15
+[16
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.A.1.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.76 \end{equation}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{equation.A.1.1}) has been already used, duplicate ignored
+l.69 \begin{equation}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.A.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.76 \end{equation}
-                   ]
+l.69 \begin{equation}
+                     ]
 Underfull \hbox (badness 10000) in paragraph at lines 103--103
 []|\OT1/txr/m/n/11.04124 Waxman
  []
 
-[16] [17]
+[17] [18]
 
 LaTeX Warning: File c709c.cmap not found on input line 152.
 
@@ -1666,16 +1686,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--190
 []|\OT1/txr/m/n/11.04124 Waxman
  []
 
-[18
+[19
 
-] [19]) [20
+] [20]) [21
 
 ] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/paper.tex)
-[21
+[22
 
 
 
-] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/ack.tex) [22
+] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/ack.tex) [23
 
 
 
@@ -1706,13 +1726,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18993 strings out of 495354
- 267986 string characters out of 3183579
- 329096 words of memory out of 3000000
- 20439 multiletter control sequences out of 15000+200000
+ 19414 strings out of 495354
+ 275191 string characters out of 3183579
+ 339909 words of memory out of 3000000
+ 20845 multiletter control sequences out of 15000+200000
  319700 words of font info for 949 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
- 51i,22n,51p,576b,2526s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,22n,51p,576b,2529s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf>{E:/CTeX/CTeX/MiKTeX/fon
 ts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
 hei.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/
@@ -1744,8 +1764,8 @@ s/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C
 u.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fon
 ts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Win
 dows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf
-><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simfang
-.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fo
+><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/
+simfang.ttf><E:/CTeX/CTeX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fo
 nts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:
 /Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simf
 ang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows
@@ -1852,9 +1872,9 @@ fonts/type1/urw/helvetic/uhvb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/helvet
 ic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/CTeX/CT
 eX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/ur
 w/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (28 pages, 1487224 bytes).
+Output written on main.pdf (29 pages, 1488737 bytes).
 PDF statistics:
- 1748 PDF objects out of 2073 (max. 8388607)
- 155 named destinations out of 1000 (max. 500000)
+ 1752 PDF objects out of 2073 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
  603 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -46,6 +46,7 @@
 \ifbnu@bachelor\relax\else
 \fi
 \RequirePackage{ifpdf,ifxetex}
+%\RequirePackage{ctex}
 \ifbnu@xetex\RequireXeTeX\fi
 \def\RequirePDFTeX{%
   \ifpdf\else
@@ -426,20 +427,20 @@
   \@makechapterhead{#2}}
 %正文标题：均加粗，段前后均0.5行
 \def\@makechapterhead#1{%一级标题：三号黑体，加粗
-  %\vspace*{0.5\baselineskip}%
+  \vspace*{0.5\baselineskip}%
   {\parindent \z@ \centering
     \hei \bf \csname bnu@title@font\endcsname\sanhao[1.6]
     \ifnum \c@secnumdepth >\m@ne
       \@chapapp\hskip1em
     \fi
     #1\par\nobreak
-    %\vskip0.5\baselineskip}
+    \vskip0.5\baselineskip
     }}
 \def\@schapter#1{%
   \@makeschapterhead{#1}
   \@afterheading}
 \def\@makeschapterhead#1{%
-  %\vspace*{0.5\baselineskip}%
+  \vspace*{0.5\baselineskip}%
   {\parindent \z@ \centering
    \hei \bf \csname bnu@title@font\endcsname\sanhao[1.6]
      \def\@tempa{#1}
@@ -447,7 +448,7 @@
      \ifx\@tempa\@tempb\bfseries\fi
    \interlinepenalty\@M
    #1\par\nobreak
-   %\vskip0.5\baselineskip}
+   \vskip0.5\baselineskip
    }}
 \newcounter{bnu@bookmark}
 \def\bnu@chapter*{%
@@ -803,14 +804,26 @@
      {\@latex@warning{Empty `thebibliography' environment}}%
     \endlist\frenchspacing}
 
+%正文图表公式编号
+\RequirePackage{amsmath}
+\RequirePackage{mathtools}
+\newtagform{empty}{{式}}{}
+\usetagform{empty}
+\renewcommand\theequation{（\thechapter-\@arabic\c@equation）}
+\renewcommand\thetable{\@arabic\c@table}
+\renewcommand\thefigure{\@arabic\c@figure}
+
+\RequirePackage{cjknumb}
+
 \let\bnu@appendix\appendix
 \renewenvironment{appendix}{%
   \bnu@appendix
   \renewcommand \thechapter { \@Roman\c@chapter} %% 附录用罗马数字编码
   \gdef\@chapapp{\appendixname~\thechapter}
-  \renewcommand\theequation{\ifnum \c@chapter>\z@ \appendixequation\thechapter-\fi\@arabic\c@equation}
-  \renewcommand\thetable{\ifnum \c@chapter>\z@ \appendixequation\thechapter.\fi\@arabic\c@table}
-  \renewcommand\thefigure{\ifnum \c@chapter>\z@ \appendixequation\thechapter.\fi\@arabic\c@figure}
+  % 附录图表公式编号格式
+  \renewcommand\theequation{（\CJKnumber\c@equation）}
+  \renewcommand\thetable{\CJKnumber\c@table}
+  \renewcommand\thefigure{\CJKnumber\c@figure}
   }{}
 
 \newenvironment{paper}{%
@@ -929,5 +942,6 @@
   extendedchars=false,columns=flexible,mathescape=true
   % numbersep=-1em
 }
+
 %%
 %% End of file `bnuthesis.cls'.
