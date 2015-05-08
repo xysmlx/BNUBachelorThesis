@@ -523,6 +523,28 @@
 %\renewcommand*\l@section{\@dottedtocline{1}{1em}{2.3em}}
 %\renewcommand*\l@subsection{\@dottedtocline{2}{2em}{3.3em}}
 %\renewcommand*\l@subsubsection{\@dottedtocline{3}{3em}{4.3em}}
+
+%\titlecontents{chapter}[0em]
+%{\vspace{.2\baselineskip}\hei}
+%{\sanhao[0.0]{\thecontentslabel}~\hspace{.5em}} {}
+%{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+%[\vspace{.1\baselineskip}]
+%\titlecontents{section}[1em]
+%{\vspace{.2\baselineskip}\hei}
+%{\xiaosan[0.0]{\thecontentslabel}~\hspace{.5em}} {}
+%{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+%[\vspace{.1\baselineskip}]
+%\titlecontents{subsection}[2em]
+%{\vspace{.2\baselineskip}\hei}
+%{\sihao[0.0]{\thecontentslabel}~\hspace{.5em}} {}
+%{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+%[\vspace{.1\baselineskip}]
+%\titlecontents{subsubsection}[3em]
+%{\vspace{.2\baselineskip}\hei}
+%{\xiaosi[0.0]{\thecontentslabel}~\hspace{.5em}} {}
+%{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+%[\vspace{.1\baselineskip}]
+
 \titlecontents{chapter}[0em]
 {\vspace{.2\baselineskip}\hei}
 {\sanhao[0.0]{\thecontentslabel}~\hspace{.5em}} {}
@@ -543,6 +565,7 @@
 {\xiaosi[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
 [\vspace{.1\baselineskip}]
+
 %\titlecontents{subsubsection}[3em]
 %{\vspace{.2\baselineskip}\hei}
 %{\xiaosi[2.0]{\thecontentslabel}~\hspace{.5em}} {}
@@ -911,11 +934,22 @@
   \def\@enddocumenthook{\bnu@endCJK\bnu@enddocumenthook}
 \fi
 
-\RequirePackage{algorithm}
-\RequirePackage{algorithmic}
+\RequirePackage[linesnumbered,ruled]{algorithm2e}
+\renewcommand{\algorithmcfname}{算法}
+%\RequirePackage{algorithmic}
+%\RequirePackage{algorithm}
+%\floatname{algorithm}{算法}
+%\renewcommand{\algorithmicrequire}{\textbf{输入:}}
+%\renewcommand{\algorithmicensure}{\textbf{输出:}}
 \RequirePackage{graphicx}
 \RequirePackage{epstopdf}
 \RequirePackage{epsfig}
+
+\newcommand{\PreserveBackslash}[1]{\let \temp =\\#1 \let \\ = \temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+
 \RequirePackage{listing}
 %\lstset{tabsize=4, %
 %  frame=single, %把代码用带有阴影的框圈起来
