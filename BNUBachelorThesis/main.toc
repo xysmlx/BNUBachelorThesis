@@ -1,5 +1,5 @@
 \contentsline {chapter}{摘\hspace {1em}要}{I}{section*.2}
-\contentsline {chapter}{ABSTRACT}{II}{section*.4}
+\contentsline {chapter}{ABSTRACT}{III}{section*.4}
 \contentsline {chapter}{1\hspace {1em} 带 English 的标题}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}封面相关}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}字体命令}{1}{section.1.2}
@@ -10,21 +10,21 @@
 \contentsline {section}{\numberline {1.4}定理环境}{7}{section.1.4}
 \contentsline {section}{\numberline {1.5}参考文献}{10}{section.1.5}
 \contentsline {section}{\numberline {1.6}公式}{10}{section.1.6}
-\contentsline {chapter}{2\hspace {1em} 中华人民共和国}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}其它例子}{12}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}绘图}{12}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}插图}{12}{subsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.2.1}一个图形}{12}{subsubsection.2.1.2.1}
-\contentsline {chapter}{参考文献}{14}{section*.17}
-\contentsline {chapter}{附录\nobreakspace {} I\hspace {1em} 外文资料原文}{16}{appendix.A}
-\contentsline {section}{\numberline { I.1}Single-Objective Programming}{16}{section.A.1}
-\contentsline {subsection}{\numberline { I.1.1}Linear Programming}{17}{subsection.A.1.1}
-\contentsline {subsection}{\numberline { I.1.2}Nonlinear Programming}{18}{subsection.A.1.2}
-\contentsline {chapter}{附录\nobreakspace {} II\hspace {1em} 外文资料的调研阅读报告或书面翻译}{19}{appendix.B}
-\contentsline {section}{\numberline { II.1}单目标规划}{19}{section.B.1}
-\contentsline {subsection}{\numberline { II.1.1}线性规划}{19}{subsection.B.1.1}
-\contentsline {subsection}{\numberline { II.1.2}非线性规划}{20}{subsection.B.1.2}
-\contentsline {chapter}{附录\nobreakspace {} III\hspace {1em} 其它附录}{21}{appendix.C}
-\contentsline {chapter}{学术成果}{22}{section*.28}
-\contentsline {chapter}{致谢}{23}{section*.30}
+\contentsline {chapter}{2\hspace {1em} 中华人民共和国}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}其它例子}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}绘图}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}插图}{13}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}一个图形}{13}{subsubsection.2.1.2.1}
+\contentsline {chapter}{参考文献}{15}{section*.17}
+\contentsline {chapter}{附录\nobreakspace {} I\hspace {1em} 外文资料原文}{17}{appendix.A}
+\contentsline {section}{\numberline { I.1}Single-Objective Programming}{17}{section.A.1}
+\contentsline {subsection}{\numberline { I.1.1}Linear Programming}{18}{subsection.A.1.1}
+\contentsline {subsection}{\numberline { I.1.2}Nonlinear Programming}{19}{subsection.A.1.2}
+\contentsline {chapter}{附录\nobreakspace {} II\hspace {1em} 外文资料的调研阅读报告或书面翻译}{21}{appendix.B}
+\contentsline {section}{\numberline { II.1}单目标规划}{21}{section.B.1}
+\contentsline {subsection}{\numberline { II.1.1}线性规划}{21}{subsection.B.1.1}
+\contentsline {subsection}{\numberline { II.1.2}非线性规划}{22}{subsection.B.1.2}
+\contentsline {chapter}{附录\nobreakspace {} III\hspace {1em} 其它附录}{23}{appendix.C}
+\contentsline {chapter}{学术成果}{25}{section*.28}
+\contentsline {chapter}{致谢}{27}{section*.30}
 \contentsfinish 
