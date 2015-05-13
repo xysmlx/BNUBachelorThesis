@@ -546,25 +546,25 @@
 %[\vspace{.1\baselineskip}]
 
 \titlecontents{chapter}[0em]
-{\vspace{.2\baselineskip}\hei}
+{\vspace{.05\baselineskip}\hei}
 {\sanhao[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[\vspace{.1\baselineskip}]
+[\vspace{.05\baselineskip}]
 \titlecontents{section}[1em]
-{\vspace{.2\baselineskip}\hei}
+{\vspace{.05\baselineskip}\hei}
 {\xiaosan[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[\vspace{.1\baselineskip}]
+[\vspace{.05\baselineskip}]
 \titlecontents{subsection}[2em]
-{\vspace{.2\baselineskip}\hei}
+{\vspace{.05\baselineskip}\hei}
 {\sihao[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[\vspace{.1\baselineskip}]
+[\vspace{.05\baselineskip}]
 \titlecontents{subsubsection}[3em]
-{\vspace{.2\baselineskip}\hei}
+{\vspace{.05\baselineskip}\hei}
 {\xiaosi[0.0]{\thecontentslabel}~\hspace{.5em}} {}
 {\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
-[\vspace{.1\baselineskip}]
+[\vspace{.05\baselineskip}]
 
 %\titlecontents{subsubsection}[3em]
 %{\vspace{.2\baselineskip}\hei}

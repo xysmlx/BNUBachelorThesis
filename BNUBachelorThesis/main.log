@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  13 MAY 2015 12:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  13 MAY 2015 14:04
 entering extended mode
 **D:/GitHub/BNUBachelorThesis/BNUBachelorThesis/main.tex
 (D:/GitHub/BNUBachelorThesis/BNUBachelorThesis/main.tex
@@ -1554,14 +1554,13 @@ l.28 \tableofcontents
 
 LaTeX Warning: File c7097.cmap not found on input line 4.
 
-[5
-
-
-]
 
 LaTeX Warning: File c708c.cmap not found on input line 23.
 
-)
+[5
+
+
+])
 \tf@toc=\write4
  [6] (D:\GitHub\BNUBachelorThesis\BNUBachelorThesis\data/chap01.tex
 
@@ -1826,7 +1825,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  20698 strings out of 495354
  292778 string characters out of 3183579
- 376213 words of memory out of 3000000
+ 376221 words of memory out of 3000000
  22097 multiletter control sequences out of 15000+200000
  319700 words of font info for 949 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
@@ -1970,7 +1969,7 @@ fonts/type1/urw/helvetic/uhvb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/helvet
 ic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/CTeX/CT
 eX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/ur
 w/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (37 pages, 1491943 bytes).
+Output written on main.pdf (37 pages, 1492006 bytes).
 PDF statistics:
  1787 PDF objects out of 2073 (max. 8388607)
  162 named destinations out of 1000 (max. 500000)
