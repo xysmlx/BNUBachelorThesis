@@ -772,7 +772,7 @@
    }}{\end{list}}
 \newenvironment{ack}{%
     \bnu@chapter*[\bnu@acklongname]{\bnu@ackname}[\bnu@acklongname]
-  }{ \vskip12bp  \sihao[1.5] \hei \rightline{\bnu@cauthor \hspace{1.5em}} \par \rightline{\bnu@cdate}}
+  }{ \vskip12bp  \sihao[1.5] \hei \rightline{\bnu@cxueshengxingming \hspace{1.5em}} \par \rightline{\bnu@cdate}}
 
 \def\bnu@starttoc#1{% #1: float type, prepend type name in \listof*** entry.
   \let\oldnumberline\numberline

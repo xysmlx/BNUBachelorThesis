@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  14 MAY 2015 12:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  14 MAY 2015 20:26
 entering extended mode
 **D:/GitHub/BNUBachelorThesis/BNUBachelorThesis/main.tex
 (D:/GitHub/BNUBachelorThesis/BNUBachelorThesis/main.tex
@@ -1823,10 +1823,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20814 strings out of 495354
- 295214 string characters out of 3183579
+ 20815 strings out of 495354
+ 295234 string characters out of 3183579
  377323 words of memory out of 3000000
- 22155 multiletter control sequences out of 15000+200000
+ 22156 multiletter control sequences out of 15000+200000
  331199 words of font info for 988 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
  51i,22n,51p,622b,2529s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1969,7 +1969,7 @@ fonts/type1/urw/helvetic/uhvb8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/helvet
 ic/uhvr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/CTeX/CT
 eX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/ur
 w/times/utmr8a.pfb><E:/CTeX/CTeX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (37 pages, 1492084 bytes).
+Output written on main.pdf (37 pages, 1492494 bytes).
 PDF statistics:
  1787 PDF objects out of 2073 (max. 8388607)
  162 named destinations out of 1000 (max. 500000)
