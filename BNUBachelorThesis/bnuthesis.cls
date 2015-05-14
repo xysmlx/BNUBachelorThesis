@@ -737,7 +737,7 @@
   	\xiaosan[1.6] \hei \cabstractname %
   \end{center}
   \vskip20bp
-  \xiaosi[1.6] \song \par \bnu@cabstract
+  \sihao[1.6] \song \par \bnu@cabstract
   \vskip20bp
   \setbox0=\hbox{{\sihao \hei\bnu@ckeywords@title}} %	关键词：四号黑体
   \noindent\hangindent\wd0\hangafter1
