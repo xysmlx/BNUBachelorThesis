@@ -7,6 +7,7 @@ Latex Template of BNU Bachelor Thesis based on BNUThesis_1.52.1
 * **由于教务处要求论文双页打印，所以Version 0.1 build 150512起，更改默认选项为双页打印版本，更改设置见main.tex的注释（如果是更新模板，则需改main.tex的第一行为\documentclass[bachelor,twoside]{bnuthesis}）**
 * **如果有修改，只需覆盖掉bnuthesis.cls文件和bnuthesis.cfg文件即可变为最新版，论文正文不用变，建议交终稿前看一下更新（看时间戳即可）**
 * **如果编译不过，试试安装字体（在References文件夹中），推荐使用PDFLaTeX（一次编译流程：PDFLaTeX+BiBTeX+PDFLaTeX+PDFLaTeX）或者XeLaTeX（CTeX和MACTeX均编译通过）**
+* **注：新版本texlive的xeCJK包与模板有一些不兼容的问题，texlive 2012可编译通过，后续将尝试进行修复**
 
 ***
 ## Build History
